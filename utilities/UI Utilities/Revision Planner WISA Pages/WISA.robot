@@ -25,6 +25,7 @@ TC_05_Complete the Setup
     Click Element                    //button[contains(text(),'Finish')]    
     Click Element                    //button[@class='btn summary-btn-close ng-scope']
     Sleep                            2s  
+    Sleep                            2s  
     Close Browser
     
     
