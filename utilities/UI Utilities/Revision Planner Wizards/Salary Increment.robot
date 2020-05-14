@@ -16,7 +16,6 @@ TC_03_Select the Goal as Salary Increment
 TC_04_Select the CTC Salary Item as Annual CTC
     Sleep                            2s
     Click Element                    //div[@class='main-content']//div[2]//div[1]//div[1]//a[1]//div[1]//b[1]
-    Scroll Element Into View         /html[1]/body[1]/div[19]/ul[1]/li[1]/div[1]
     Click Element                    //div[contains(text(),'ANNUAL_CTC')]
     
 TC_05_Enter the Goal % and verify the Current Salary, Revised Salary and Total Employee Count 
@@ -28,10 +27,13 @@ TC_05_Enter the Goal % and verify the Current Salary, Revised Salary and Total E
     ${RSA}       Get Text            ${RevisedSalaryAmount}  
     ${TEC}       Get Text            ${TotalEmployeeCount}  
     ${EC}        Get Text            ${EmployeeCount}
+    ${G}         Get Text            ${Goal}
+    ${GA}        Get Text            ${GoalAmount}
     Sleep                            2s
     Log To Console                   ${CS} is ${CSA}
     Log To Console                   ${RS} is ${RSA}  
-    Log To Console                   ${TEC}is ${EC}           
+    Log To Console                   ${TEC}is ${EC} 
+    Log To Console                   ${G} is ${GA}          
     
 TC_06_Complete the Setup Analysis
     Sleep                            2s    
@@ -41,4 +43,4 @@ TC_06_Complete the Setup Analysis
     Sleep                            2s     
     Click Element                    //button[contains(text(),'Finish')]    
     Click Element                    //button[@class='btn summary-btn-close ng-scope']
-    Sleep                            2s
+    Sleep                            2s  

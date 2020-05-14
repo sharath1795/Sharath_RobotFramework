@@ -18,7 +18,7 @@ Salary Increment
     
      TC_03_Select the Goal as Salary Increment  
      
-     # TC_04_Select the CTC Salary Item as Annual CTC
+     TC_04_Select the CTC Salary Item as Annual CTC
        
      TC_05_Enter the Goal % and verify the Current Salary, Revised Salary and Total Employee Count 
     
@@ -26,16 +26,15 @@ Salary Increment
      
 Salary Deferment 
     
+    TC_07_Create New Analysis
     
-     TC_07_Create New Analysis
-    
-     TC_08_Select the Goal as Salary Deferment  
+    TC_08_Select the Goal as Salary Deferment  
      
-     # TC_09_Select the CTC Salary Item as Monthly CTC
+    TC_09_Select the CTC Salary Item as Monthly CTC
        
-     TC_10_Enter the Goal % and verify the Current Salary, Revised Salary and Total Employee Count 
+    TC_10_Enter the Goal % and verify the Current Salary, Revised Salary and Total Employee Count 
     
-     TC_11_Complete the Setup Analysis 
+    TC_11_Complete the Setup Analysis 
      
 Salary Cut 
     
@@ -43,13 +42,13 @@ Salary Cut
     
      TC_13_Select the Goal as Salary Cut  
      
-     # TC_14_Select the CTC Salary Item as Basic
+     TC_14_Select the CTC Salary Item as Basic
        
      TC_15_Enter the Goal % and verify the Current Salary, Revised Salary and Total Employee Count 
     
      TC_16_Complete the Setup Analysis 
      
-
 Logout from the greytHR Application and close the browser 
     
-    TC_17_Logout from greytHR and Close Browser
+    TC_17_Logout from greytHR and Close Browser      
+    

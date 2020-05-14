@@ -9,3 +9,5 @@ ${RevisedSalary}            //div[@class='span6 text-right'][contains(.,'Revised
 ${RevisedSalaryAmount}      (//div[@class='span6 wisa-amount ng-binding'])[2]
 ${TotalEmployeeCount}       //div[@class='span6 text-right'][contains(.,'Total Employee Count')]
 ${EmployeeCount}            (//div[@class='span6 wisa-amount ng-binding'])[3]
+${Goal}                     //label[contains(text(),'Goal Amount')]
+${GoalAmount}               //div[contains(@class,'goal-amt ng-scope ng-binding')]
