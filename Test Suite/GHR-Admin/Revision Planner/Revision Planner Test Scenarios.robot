@@ -70,5 +70,4 @@ Logout from the greytHR Application and close the browser
     
      TC_26_Delete all the Analysis
     
-     TC_27_Logout from greytHR and Close Browser      
-    
+     TC_27_Logout from greytHR and Close Browser 

@@ -11,7 +11,6 @@ ${TotalEmployeeCount}       //div[@class='span6 text-right'][contains(.,'Total E
 ${EmployeeCount}            (//div[@class='span6 wisa-amount ng-binding'])[3]
 ${Goal}                     //label[contains(text(),'Goal Amount')]
 ${GoalAmount}               //div[contains(@class,'goal-amt ng-scope ng-binding')]
-
 ${Goal%}                    //p[contains(text(),'Goal %')]
 ${GoalPercentage}           //body[@class='gt-payroll ng-scope ng-isolate-scope']/div[@class='container2 fixed-top']/div[@class='content']/div[@class='ng-scope']/div[@class='inner-content']/div[@class='app-content']/div[@class='main-content']/div[@id='main']/div/div[@id='app-container']/div[@class='ng-scope']/div[@class='ng-scope']/div[@class='pageset']/form[@name='wiz_form']/div/div[@class='row-fluid ng-scope']/div[@class='summery-row']/div[@class='summery-card']/div[@class='summery-body d-flex']/div[1]/div[1]/p[2]
 ${Goalamt}                  //p[contains(text(),'Goal amount')]
