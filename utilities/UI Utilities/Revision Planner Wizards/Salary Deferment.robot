@@ -66,6 +66,8 @@ TC_14_Verify the Goal Summary, Actual Amount and Variations
     
 TC_15_Complete the Setup Analysis
     Sleep                            2s     
-    Click Element                    //button[contains(text(),'Finish')]    
+    Click Element                    //button[contains(text(),'Finish')] 
+    Click Element                    //button[contains(text(),'Export Excel')]
+    Sleep                            2s   
     Click Element                    //button[@class='btn summary-btn-close ng-scope']
     Sleep                            2s  

@@ -38,7 +38,7 @@ TC_19_Enter the Goal % and verify the Current Salary, Revised Salary and Total E
     
 TC_20_Verify the Band Frequency and change the Band Value
     Sleep                             2s
-    Input Text                        //input[@placeholder='Frequency']    60000  
+    Input Text                        //input[@placeholder='Frequency']    40000  
     
 TC_21_Verify the Goal Summary, Actual Amount and Variations 
     Sleep                            2s
@@ -66,6 +66,8 @@ TC_21_Verify the Goal Summary, Actual Amount and Variations
     
 TC_22_Complete the Setup Analysis
     Sleep                            2s
-    Click Element                    //button[contains(text(),'Finish')]    
+    Click Element                    //button[contains(text(),'Finish')]  
+    Click Element                    //button[contains(text(),'Export Excel')]
+    Sleep                            2s  
     Click Element                    //button[@class='btn summary-btn-close ng-scope']
     Sleep                            2s   
