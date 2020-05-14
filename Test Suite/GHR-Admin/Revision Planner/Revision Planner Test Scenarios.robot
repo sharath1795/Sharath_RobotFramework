@@ -18,7 +18,7 @@ Salary Increment
     
      TC_03_Select the Goal as Salary Increment  
      
-     TC_04_Select the CTC Salary Item as Annual CTC
+     # TC_04_Select the CTC Salary Item as Annual CTC
        
      TC_05_Enter the Goal % and verify the Current Salary, Revised Salary and Total Employee Count 
     
@@ -31,7 +31,7 @@ Salary Deferment
     
      TC_08_Select the Goal as Salary Deferment  
      
-     TC_09_Select the CTC Salary Item as Monthly CTC
+     # TC_09_Select the CTC Salary Item as Monthly CTC
        
      TC_10_Enter the Goal % and verify the Current Salary, Revised Salary and Total Employee Count 
     
@@ -43,7 +43,7 @@ Salary Cut
     
      TC_13_Select the Goal as Salary Cut  
      
-     TC_14_Select the CTC Salary Item as Basic
+     # TC_14_Select the CTC Salary Item as Basic
        
      TC_15_Enter the Goal % and verify the Current Salary, Revised Salary and Total Employee Count 
     

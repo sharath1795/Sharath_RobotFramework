@@ -4,21 +4,22 @@ Resource    ../../Parser Utilities/Keywords/Revision Planner Keywords.robot
 Resource    ../../Parser Utilities/Variables/test_bed_parser.robot
 
 *** Keywords ***
- TC_12_Create New Analysis
+TC_12_Create New Analysis
     Sleep                            2s    
     Click Element                    //button[@class='btn btn-primary pull-right']
     
- TC_13_Select the Goal as Salary Cut 
+TC_13_Select the Goal as Salary Cut 
     Sleep                            2s    
     Click Element                    //div[@class='span6']//div[1]//div[1]//div[1]//a[1]//div[1]//b[1]
     Click Element                    //div[contains(text(),'Salary Cut')]
     
 TC_14_Select the CTC Salary Item as Basic
     Sleep                            2s
-    # Click Element                    //div[@class='main-content']//div[2]//div[1]//div[1]//a[1]//div[1]//b[1]
-    # Click Element                    //div[@class='select2-drop select2-with-searchbox select2-drop-active select2-drop-above']//li[2]//div[1]
+    Click Element                    //div[@class='main-content']//div[2]//div[1]//div[1]//a[1]//div[1]//b[1]
+    Scroll Element Into View         /html[1]/body[1]/div[16]/ul[1]/li[2]/div[1]
+    Click Element                    /html[1]/body[1]/div[16]/ul[1]/li[2]/div[1]
 
- TC_15_Enter the Goal % and verify the Current Salary, Revised Salary and Total Employee Count 
+TC_15_Enter the Goal % and verify the Current Salary, Revised Salary and Total Employee Count 
     Sleep                            2s    
     Input Text                       //input[@type='number']        20.4
     ${CS}        Get Text            ${CurrentSalary}  
