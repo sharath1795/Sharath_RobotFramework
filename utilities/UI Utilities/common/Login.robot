@@ -1,11 +1,9 @@
 *** Settings ***
-Library    SeleniumLibrary    
-Library     String
+Library     SeleniumLibrary    
 Resource    ../../Parser Utilities/Variables/test_bed_parser.robot
 
-
 *** Keywords ***
-TC_01_Login to Application with Valid credentials and Re-direct to Revision Planner Page
+TC_01_Login to greythr Application with Valid credentials and Re-direct to Revision Planner Page 
     
     Set Selenium Implicit Wait                      10
     Open Browser                                    ${URL}    ${Browser}
