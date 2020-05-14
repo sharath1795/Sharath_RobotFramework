@@ -28,39 +28,41 @@ Salary Increment
     
      TC_08_Complete the Setup Analysis 
      
+     TC_09_Edit the Analysis and change the CTC Salary Item, Goal% and Download the excel file
+     
 Salary Deferment 
     
-     TC_09_Create New Analysis
+     TC_10_Create New Analysis
     
-     TC_10_Select the Goal as Salary Deferment  
+     TC_11_Select the Goal as Salary Deferment  
      
-     TC_11_Select the CTC Salary Item as Monthly CTC
+     TC_12_Select the CTC Salary Item as Monthly CTC
        
-     TC_12_Enter the Goal % and verify the Current Salary, Revised Salary and Total Employee Count
+     TC_13_Enter the Goal % and verify the Current Salary, Revised Salary and Total Employee Count
     
-     TC_13_Verify the Band Frequency and change the Band Value 
+     TC_14_Verify the Band Frequency and change the Band Value 
      
-     TC_14_Verify the Goal Summary, Actual Amount and Variations 
+     TC_15_Verify the Goal Summary, Actual Amount and Variations 
     
-     TC_15_Complete the Setup Analysis 
+     TC_16_Complete the Setup Analysis 
      
 Salary Cut 
     
-     TC_16_Create New Analysis
+     TC_17_Create New Analysis
     
-     TC_17_Select the Goal as Salary Cut  
+     TC_18_Select the Goal as Salary Cut  
      
-     TC_18_Select the CTC Salary Item as Basic
+     TC_19_Select the CTC Salary Item as Basic
        
-     TC_19_Enter the Goal % and verify the Current Salary, Revised Salary and Total Employee Count 
+     TC_20_Enter the Goal % and verify the Current Salary, Revised Salary and Total Employee Count 
      
-     TC_20_Verify the Band Frequency and change the Band Value
+     TC_21_Verify the Band Frequency and change the Band Value
      
-     TC_21_Verify the Goal Summary, Actual Amount and Variations
+     TC_22_Verify the Goal Summary, Actual Amount and Variations
     
-     TC_22_Complete the Setup Analysis 
+     TC_23_Complete the Setup Analysis 
      
 Logout from the greytHR Application and close the browser 
     
-     TC_23_Logout from greytHR and Close Browser      
+     TC_24_Logout from greytHR and Close Browser      
     
