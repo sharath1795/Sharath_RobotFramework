@@ -46,23 +46,29 @@ Salary Deferment
     
      TC_16_Complete the Setup Analysis 
      
+     TC_17_Edit the Analysis and change the CTC Salary Item, Goal% and Download the excel file
+     
 Salary Cut 
     
-     TC_17_Create New Analysis
+     TC_18_Create New Analysis
     
-     TC_18_Select the Goal as Salary Cut  
+     TC_19_Select the Goal as Salary Cut  
      
-     TC_19_Select the CTC Salary Item as Basic
+     TC_20_Select the CTC Salary Item as Basic
        
-     TC_20_Enter the Goal % and verify the Current Salary, Revised Salary and Total Employee Count 
+     TC_21_Enter the Goal % and verify the Current Salary, Revised Salary and Total Employee Count 
      
-     TC_21_Verify the Band Frequency and change the Band Value
+     TC_22_Verify the Band Frequency and change the Band Value
      
-     TC_22_Verify the Goal Summary, Actual Amount and Variations
+     TC_23_Verify the Goal Summary, Actual Amount and Variations
     
-     TC_23_Complete the Setup Analysis 
+     TC_24_Complete the Setup Analysis 
+     
+     TC_25_Edit the Analysis and change the CTC Salary Item, Goal% and Download the excel file
      
 Logout from the greytHR Application and close the browser 
     
-     TC_24_Logout from greytHR and Close Browser      
+     TC_26_Delete all the Analysis
+    
+     TC_27_Logout from greytHR and Close Browser      
     
