@@ -125,4 +125,4 @@ TC_09_Edit the Analysis and change the CTC Salary Item, Goal% and Download the e
     Click Element                    //button[@class='btn summary-btn-close ng-scope']
     Sleep                            2s 
     Click Element                    //span[1]//div[1]//table[1]//tbody[1]//tr[1]//td[1]//div[1]//span[2]//i[2]
-    Sleep                            2s   
+    Sleep                            2s    
