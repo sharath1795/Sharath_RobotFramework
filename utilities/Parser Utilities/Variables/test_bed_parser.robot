@@ -1,6 +1,6 @@
 *** Variables ***
 ${Browser}                  chrome
-${URL}                      http://masterdemo5.gtatlantis.gr8hr.biz/
+${URL}                      http://masterdemo3.gtatlantis.gr8hr.biz/
 ${username}                 majordomo
 ${password}                 sa
 ${CurrentSalary}            //div[@class='span6 text-right'][contains(.,'Current Salary Amount')]
