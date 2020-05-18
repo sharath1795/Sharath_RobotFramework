@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.1 (Python 3.8.2 on win32)" generated="20200515 10:56:11.379" rpa="false">
+<robot generator="Robot 3.2.1 (Python 3.8.2 on win32)" generated="20200515 13:51:10.814" rpa="false">
 <suite id="s1" name="Salary Revision Planner" source="D:\Robot Framework\Salary Revision Planner">
 <suite id="s1-s1" name="Test Suite" source="D:\Robot Framework\Salary Revision Planner\Test Suite">
 <suite id="s1-s1-s1" name="GHR-Admin" source="D:\Robot Framework\Salary Revision Planner\Test Suite\GHR-Admin">
@@ -12,7 +12,7 @@
 <arguments>
 <arg>10</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:56:11.754" endtime="20200515 10:56:11.754"></status>
+<status status="PASS" starttime="20200515 13:51:12.092" endtime="20200515 13:51:12.092"></status>
 </kw>
 <kw name="Open Browser" library="SeleniumLibrary">
 <doc>Opens a new browser instance to the optional ``url``.</doc>
@@ -20,12 +20,12 @@
 <arg>${URL}</arg>
 <arg>${Browser}</arg>
 </arguments>
-<msg timestamp="20200515 10:56:11.754" level="INFO">Opening browser 'chrome' to base url 'http://masterdemo5.gtatlantis.gr8hr.biz/'.</msg>
-<status status="PASS" starttime="20200515 10:56:11.754" endtime="20200515 10:56:35.691"></status>
+<msg timestamp="20200515 13:51:12.093" level="INFO">Opening browser 'chrome' to base url 'http://masterdemo5.gtatlantis.gr8hr.biz/'.</msg>
+<status status="PASS" starttime="20200515 13:51:12.092" endtime="20200515 13:51:37.422"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20200515 10:56:35.691" endtime="20200515 10:56:37.848"></status>
+<status status="PASS" starttime="20200515 13:51:37.423" endtime="20200515 13:51:39.580"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until the element ``locator`` is visible.</doc>
@@ -33,7 +33,7 @@
 <arg>//button</arg>
 <arg>60</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:56:37.849" endtime="20200515 10:56:37.886"></status>
+<status status="PASS" starttime="20200515 13:51:39.580" endtime="20200515 13:51:39.620"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -41,8 +41,8 @@
 <arg>//input[@name='username']</arg>
 <arg>${username}</arg>
 </arguments>
-<msg timestamp="20200515 10:56:37.887" level="INFO">Typing text 'majordomo' into text field '//input[@name='username']'.</msg>
-<status status="PASS" starttime="20200515 10:56:37.886" endtime="20200515 10:56:38.000"></status>
+<msg timestamp="20200515 13:51:39.621" level="INFO">Typing text 'majordomo' into text field '//input[@name='username']'.</msg>
+<status status="PASS" starttime="20200515 13:51:39.621" endtime="20200515 13:51:39.745"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -50,16 +50,16 @@
 <arg>//input[@name='password']</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20200515 10:56:38.001" level="INFO">Typing text 'sa' into text field '//input[@name='password']'.</msg>
-<status status="PASS" starttime="20200515 10:56:38.001" endtime="20200515 10:56:38.097"></status>
+<msg timestamp="20200515 13:51:39.746" level="INFO">Typing text 'sa' into text field '//input[@name='password']'.</msg>
+<status status="PASS" starttime="20200515 13:51:39.746" endtime="20200515 13:51:39.860"></status>
 </kw>
 <kw name="Click Button" library="SeleniumLibrary">
 <doc>Clicks the button identified by ``locator``.</doc>
 <arguments>
 <arg>//button[contains(@type,'submit')]</arg>
 </arguments>
-<msg timestamp="20200515 10:56:38.097" level="INFO">Clicking button '//button[contains(@type,'submit')]'.</msg>
-<status status="PASS" starttime="20200515 10:56:38.097" endtime="20200515 10:56:38.197"></status>
+<msg timestamp="20200515 13:51:39.861" level="INFO">Clicking button '//button[contains(@type,'submit')]'.</msg>
+<status status="PASS" starttime="20200515 13:51:39.861" endtime="20200515 13:51:39.960"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until the element ``locator`` is visible.</doc>
@@ -67,19 +67,19 @@
 <arg>//div[contains(text(),"HR News")]</arg>
 <arg>60</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:56:38.197" endtime="20200515 10:56:44.264"></status>
+<status status="PASS" starttime="20200515 13:51:39.961" endtime="20200515 13:51:49.643"></status>
 </kw>
 <kw name="Go To" library="SeleniumLibrary">
 <doc>Navigates the current browser window to the provided ``url``.</doc>
 <arguments>
 <arg>${URL}ngapp/payroll/admin/revision-planner</arg>
 </arguments>
-<msg timestamp="20200515 10:56:44.265" level="INFO">Opening url 'http://masterdemo5.gtatlantis.gr8hr.biz/ngapp/payroll/admin/revision-planner'</msg>
-<status status="PASS" starttime="20200515 10:56:44.264" endtime="20200515 10:56:46.608"></status>
+<msg timestamp="20200515 13:51:49.645" level="INFO">Opening url 'http://masterdemo5.gtatlantis.gr8hr.biz/ngapp/payroll/admin/revision-planner'</msg>
+<status status="PASS" starttime="20200515 13:51:49.644" endtime="20200515 13:51:51.879"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:56:11.754" endtime="20200515 10:56:46.609"></status>
+<status status="PASS" starttime="20200515 13:51:12.091" endtime="20200515 13:51:51.880"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:56:11.754" endtime="20200515 10:56:46.609" critical="yes"></status>
+<status status="PASS" starttime="20200515 13:51:12.089" endtime="20200515 13:51:51.880" critical="yes"></status>
 </test>
 <test id="s1-s1-s1-s1-s1-t2" name="Salary Increment">
 <kw name="TC_02_Create New Analysis" library="Salary Increment">
@@ -88,18 +88,18 @@
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:56:48.616" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:56:46.615" endtime="20200515 10:56:48.616"></status>
+<msg timestamp="20200515 13:51:53.886" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:51:51.884" endtime="20200515 13:51:53.886"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[@class='btn btn-primary pull-right']</arg>
 </arguments>
-<msg timestamp="20200515 10:56:48.618" level="INFO">Clicking element '//button[@class='btn btn-primary pull-right']'.</msg>
-<status status="PASS" starttime="20200515 10:56:48.617" endtime="20200515 10:56:49.803"></status>
+<msg timestamp="20200515 13:51:53.887" level="INFO">Clicking element '//button[@class='btn btn-primary pull-right']'.</msg>
+<status status="PASS" starttime="20200515 13:51:53.886" endtime="20200515 13:51:54.670"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:56:46.613" endtime="20200515 10:56:49.803"></status>
+<status status="PASS" starttime="20200515 13:51:51.882" endtime="20200515 13:51:54.671"></status>
 </kw>
 <kw name="TC_03_Select the Goal as Salary Increment" library="Salary Increment">
 <kw name="Sleep" library="BuiltIn">
@@ -107,26 +107,26 @@
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:56:51.810" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:56:49.804" endtime="20200515 10:56:51.810"></status>
+<msg timestamp="20200515 13:51:56.672" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:51:54.672" endtime="20200515 13:51:56.672"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//div[@class='span6']//div[1]//div[1]//div[1]//a[1]//div[1]//b[1]</arg>
 </arguments>
-<msg timestamp="20200515 10:56:51.812" level="INFO">Clicking element '//div[@class='span6']//div[1]//div[1]//div[1]//a[1]//div[1]//b[1]'.</msg>
-<status status="PASS" starttime="20200515 10:56:51.811" endtime="20200515 10:56:52.070"></status>
+<msg timestamp="20200515 13:51:56.673" level="INFO">Clicking element '//div[@class='span6']//div[1]//div[1]//div[1]//a[1]//div[1]//b[1]'.</msg>
+<status status="PASS" starttime="20200515 13:51:56.672" endtime="20200515 13:51:56.982"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//div[contains(text(),'Salary Increment')]</arg>
 </arguments>
-<msg timestamp="20200515 10:56:52.071" level="INFO">Clicking element '//div[contains(text(),'Salary Increment')]'.</msg>
-<status status="PASS" starttime="20200515 10:56:52.071" endtime="20200515 10:56:52.213"></status>
+<msg timestamp="20200515 13:51:56.983" level="INFO">Clicking element '//div[contains(text(),'Salary Increment')]'.</msg>
+<status status="PASS" starttime="20200515 13:51:56.983" endtime="20200515 13:51:57.130"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:56:49.804" endtime="20200515 10:56:52.213"></status>
+<status status="PASS" starttime="20200515 13:51:54.671" endtime="20200515 13:51:57.131"></status>
 </kw>
 <kw name="TC_04_Select the CTC Salary Item as Annual CTC" library="Salary Increment">
 <kw name="Sleep" library="BuiltIn">
@@ -134,26 +134,26 @@
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:56:54.223" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:56:52.215" endtime="20200515 10:56:54.223"></status>
+<msg timestamp="20200515 13:51:59.134" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:51:57.132" endtime="20200515 13:51:59.134"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//div[@class='main-content']//div[2]//div[1]//div[1]//a[1]//div[1]//b[1]</arg>
 </arguments>
-<msg timestamp="20200515 10:56:54.223" level="INFO">Clicking element '//div[@class='main-content']//div[2]//div[1]//div[1]//a[1]//div[1]//b[1]'.</msg>
-<status status="PASS" starttime="20200515 10:56:54.223" endtime="20200515 10:56:54.489"></status>
+<msg timestamp="20200515 13:51:59.137" level="INFO">Clicking element '//div[@class='main-content']//div[2]//div[1]//div[1]//a[1]//div[1]//b[1]'.</msg>
+<status status="PASS" starttime="20200515 13:51:59.135" endtime="20200515 13:51:59.407"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//div[contains(text(),'ANNUAL_CTC')]</arg>
 </arguments>
-<msg timestamp="20200515 10:56:54.489" level="INFO">Clicking element '//div[contains(text(),'ANNUAL_CTC')]'.</msg>
-<status status="PASS" starttime="20200515 10:56:54.489" endtime="20200515 10:56:54.652"></status>
+<msg timestamp="20200515 13:51:59.410" level="INFO">Clicking element '//div[contains(text(),'ANNUAL_CTC')]'.</msg>
+<status status="PASS" starttime="20200515 13:51:59.408" endtime="20200515 13:51:59.568"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:56:52.214" endtime="20200515 10:56:54.652"></status>
+<status status="PASS" starttime="20200515 13:51:57.131" endtime="20200515 13:51:59.569"></status>
 </kw>
 <kw name="TC_05_Enter the Goal % and verify the Current Salary, Revised Salary and Total Employee Count" library="Salary Increment">
 <kw name="Sleep" library="BuiltIn">
@@ -161,8 +161,8 @@
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:56:56.660" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:56:54.652" endtime="20200515 10:56:56.660"></status>
+<msg timestamp="20200515 13:52:01.572" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:51:59.570" endtime="20200515 13:52:01.573"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -170,8 +170,8 @@
 <arg>//input[@type='number']</arg>
 <arg>10.5</arg>
 </arguments>
-<msg timestamp="20200515 10:56:56.660" level="INFO">Typing text '10.5' into text field '//input[@type='number']'.</msg>
-<status status="PASS" starttime="20200515 10:56:56.660" endtime="20200515 10:56:56.905"></status>
+<msg timestamp="20200515 13:52:01.577" level="INFO">Typing text '10.5' into text field '//input[@type='number']'.</msg>
+<status status="PASS" starttime="20200515 13:52:01.575" endtime="20200515 13:52:01.806"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -181,8 +181,8 @@
 <assign>
 <var>${CS}</var>
 </assign>
-<msg timestamp="20200515 10:56:56.931" level="INFO">${CS} = Current Salary Amount</msg>
-<status status="PASS" starttime="20200515 10:56:56.905" endtime="20200515 10:56:56.931"></status>
+<msg timestamp="20200515 13:52:01.844" level="INFO">${CS} = Current Salary Amount</msg>
+<status status="PASS" starttime="20200515 13:52:01.806" endtime="20200515 13:52:01.845"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -192,8 +192,8 @@
 <assign>
 <var>${CSA}</var>
 </assign>
-<msg timestamp="20200515 10:56:56.973" level="INFO">${CSA} = 5,66,36,781.00</msg>
-<status status="PASS" starttime="20200515 10:56:56.931" endtime="20200515 10:56:56.973"></status>
+<msg timestamp="20200515 13:52:01.878" level="INFO">${CSA} = 5,66,36,781.00</msg>
+<status status="PASS" starttime="20200515 13:52:01.845" endtime="20200515 13:52:01.878"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -203,8 +203,8 @@
 <assign>
 <var>${RS}</var>
 </assign>
-<msg timestamp="20200515 10:56:57.005" level="INFO">${RS} = Revised Salary Amount</msg>
-<status status="PASS" starttime="20200515 10:56:56.974" endtime="20200515 10:56:57.005"></status>
+<msg timestamp="20200515 13:52:01.909" level="INFO">${RS} = Revised Salary Amount</msg>
+<status status="PASS" starttime="20200515 13:52:01.878" endtime="20200515 13:52:01.909"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -214,8 +214,8 @@
 <assign>
 <var>${RSA}</var>
 </assign>
-<msg timestamp="20200515 10:56:57.038" level="INFO">${RSA} = 6,25,83,643.00</msg>
-<status status="PASS" starttime="20200515 10:56:57.006" endtime="20200515 10:56:57.038"></status>
+<msg timestamp="20200515 13:52:01.940" level="INFO">${RSA} = 6,25,83,643.00</msg>
+<status status="PASS" starttime="20200515 13:52:01.909" endtime="20200515 13:52:01.940"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -225,8 +225,8 @@
 <assign>
 <var>${TEC}</var>
 </assign>
-<msg timestamp="20200515 10:56:57.070" level="INFO">${TEC} = Total Employee Count</msg>
-<status status="PASS" starttime="20200515 10:56:57.039" endtime="20200515 10:56:57.070"></status>
+<msg timestamp="20200515 13:52:01.970" level="INFO">${TEC} = Total Employee Count</msg>
+<status status="PASS" starttime="20200515 13:52:01.940" endtime="20200515 13:52:01.970"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -236,8 +236,8 @@
 <assign>
 <var>${EC}</var>
 </assign>
-<msg timestamp="20200515 10:56:57.103" level="INFO">${EC} = 40</msg>
-<status status="PASS" starttime="20200515 10:56:57.070" endtime="20200515 10:56:57.103"></status>
+<msg timestamp="20200515 13:52:02.003" level="INFO">${EC} = 40</msg>
+<status status="PASS" starttime="20200515 13:52:01.970" endtime="20200515 13:52:02.003"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -247,8 +247,8 @@
 <assign>
 <var>${G}</var>
 </assign>
-<msg timestamp="20200515 10:56:57.136" level="INFO">${G} = Goal Amount</msg>
-<status status="PASS" starttime="20200515 10:56:57.103" endtime="20200515 10:56:57.136"></status>
+<msg timestamp="20200515 13:52:02.033" level="INFO">${G} = Goal Amount</msg>
+<status status="PASS" starttime="20200515 13:52:02.004" endtime="20200515 13:52:02.033"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -258,54 +258,54 @@
 <assign>
 <var>${GA}</var>
 </assign>
-<msg timestamp="20200515 10:56:57.171" level="INFO">${GA} = 59,46,862.00</msg>
-<status status="PASS" starttime="20200515 10:56:57.136" endtime="20200515 10:56:57.171"></status>
+<msg timestamp="20200515 13:52:02.066" level="INFO">${GA} = 59,46,862.00</msg>
+<status status="PASS" starttime="20200515 13:52:02.034" endtime="20200515 13:52:02.067"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:56:59.177" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:56:57.171" endtime="20200515 10:56:59.177"></status>
+<msg timestamp="20200515 13:52:04.067" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:52:02.067" endtime="20200515 13:52:04.067"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${CS} is ${CSA}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:56:59.177" endtime="20200515 10:56:59.177"></status>
+<status status="PASS" starttime="20200515 13:52:04.068" endtime="20200515 13:52:04.070"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${RS} is ${RSA}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:56:59.180" endtime="20200515 10:56:59.181"></status>
+<status status="PASS" starttime="20200515 13:52:04.071" endtime="20200515 13:52:04.072"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${TEC}is ${EC}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:56:59.183" endtime="20200515 10:56:59.183"></status>
+<status status="PASS" starttime="20200515 13:52:04.073" endtime="20200515 13:52:04.074"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${G} is ${GA}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:56:59.183" endtime="20200515 10:56:59.183"></status>
+<status status="PASS" starttime="20200515 13:52:04.075" endtime="20200515 13:52:04.077"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[contains(text(),'Next')]</arg>
 </arguments>
-<msg timestamp="20200515 10:56:59.183" level="INFO">Clicking element '//button[contains(text(),'Next')]'.</msg>
-<status status="PASS" starttime="20200515 10:56:59.183" endtime="20200515 10:56:59.311"></status>
+<msg timestamp="20200515 13:52:04.079" level="INFO">Clicking element '//button[contains(text(),'Next')]'.</msg>
+<status status="PASS" starttime="20200515 13:52:04.078" endtime="20200515 13:52:04.263"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:56:54.652" endtime="20200515 10:56:59.311"></status>
+<status status="PASS" starttime="20200515 13:51:59.569" endtime="20200515 13:52:04.264"></status>
 </kw>
 <kw name="TC_06_Verify the Band Frequency and change the Band Value" library="Salary Increment">
 <kw name="Sleep" library="BuiltIn">
@@ -313,8 +313,8 @@
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:57:01.316" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:56:59.312" endtime="20200515 10:57:01.316"></status>
+<msg timestamp="20200515 13:52:06.267" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:52:04.266" endtime="20200515 13:52:06.267"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -322,10 +322,10 @@
 <arg>//input[@placeholder='Frequency']</arg>
 <arg>60000</arg>
 </arguments>
-<msg timestamp="20200515 10:57:01.324" level="INFO">Typing text '60000' into text field '//input[@placeholder='Frequency']'.</msg>
-<status status="PASS" starttime="20200515 10:57:01.322" endtime="20200515 10:57:01.636"></status>
+<msg timestamp="20200515 13:52:06.270" level="INFO">Typing text '60000' into text field '//input[@placeholder='Frequency']'.</msg>
+<status status="PASS" starttime="20200515 13:52:06.268" endtime="20200515 13:52:06.595"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:56:59.312" endtime="20200515 10:57:01.637"></status>
+<status status="PASS" starttime="20200515 13:52:04.264" endtime="20200515 13:52:06.596"></status>
 </kw>
 <kw name="TC_07_Verify the Goal Summary, Actual Amount and Variations" library="Salary Increment">
 <kw name="Sleep" library="BuiltIn">
@@ -333,8 +333,8 @@
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:57:03.644" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:57:01.639" endtime="20200515 10:57:03.644"></status>
+<msg timestamp="20200515 13:52:08.599" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:52:06.597" endtime="20200515 13:52:08.600"></status>
 </kw>
 <kw name="Scroll Page To Location" library="Revision Planner Keywords">
 <arguments>
@@ -346,20 +346,20 @@
 <arguments>
 <arg>window.scrollTo(${x_location},${y_location})</arg>
 </arguments>
-<msg timestamp="20200515 10:57:03.644" level="INFO">Executing JavaScript:
+<msg timestamp="20200515 13:52:08.605" level="INFO">Executing JavaScript:
 window.scrollTo(0,2000)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200515 10:57:03.644" endtime="20200515 10:57:03.710"></status>
+<status status="PASS" starttime="20200515 13:52:08.603" endtime="20200515 13:52:08.662"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:57:03.644" endtime="20200515 10:57:03.711"></status>
+<status status="PASS" starttime="20200515 13:52:08.601" endtime="20200515 13:52:08.662"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:57:05.723" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:57:03.712" endtime="20200515 10:57:05.723"></status>
+<msg timestamp="20200515 13:52:10.665" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:52:08.663" endtime="20200515 13:52:10.666"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -369,8 +369,8 @@ Without any arguments.</msg>
 <assign>
 <var>${GP}</var>
 </assign>
-<msg timestamp="20200515 10:57:05.785" level="INFO">${GP} = Goal %</msg>
-<status status="PASS" starttime="20200515 10:57:05.723" endtime="20200515 10:57:05.785"></status>
+<msg timestamp="20200515 13:52:10.724" level="INFO">${GP} = Goal %</msg>
+<status status="PASS" starttime="20200515 13:52:10.667" endtime="20200515 13:52:10.724"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -380,8 +380,8 @@ Without any arguments.</msg>
 <assign>
 <var>${GPV}</var>
 </assign>
-<msg timestamp="20200515 10:57:05.816" level="INFO">${GPV} = 10.50 %</msg>
-<status status="PASS" starttime="20200515 10:57:05.785" endtime="20200515 10:57:05.816"></status>
+<msg timestamp="20200515 13:52:10.756" level="INFO">${GPV} = 10.50 %</msg>
+<status status="PASS" starttime="20200515 13:52:10.725" endtime="20200515 13:52:10.756"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -391,8 +391,8 @@ Without any arguments.</msg>
 <assign>
 <var>${GA}</var>
 </assign>
-<msg timestamp="20200515 10:57:05.848" level="INFO">${GA} = Goal amount</msg>
-<status status="PASS" starttime="20200515 10:57:05.816" endtime="20200515 10:57:05.848"></status>
+<msg timestamp="20200515 13:52:10.786" level="INFO">${GA} = Goal amount</msg>
+<status status="PASS" starttime="20200515 13:52:10.756" endtime="20200515 13:52:10.786"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -402,8 +402,8 @@ Without any arguments.</msg>
 <assign>
 <var>${GAV}</var>
 </assign>
-<msg timestamp="20200515 10:57:05.872" level="INFO">${GAV} = Goal amount</msg>
-<status status="PASS" starttime="20200515 10:57:05.848" endtime="20200515 10:57:05.873"></status>
+<msg timestamp="20200515 13:52:10.805" level="INFO">${GAV} = Goal amount</msg>
+<status status="PASS" starttime="20200515 13:52:10.786" endtime="20200515 13:52:10.805"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -413,8 +413,8 @@ Without any arguments.</msg>
 <assign>
 <var>${AP}</var>
 </assign>
-<msg timestamp="20200515 10:57:05.905" level="INFO">${AP} = Actual %</msg>
-<status status="PASS" starttime="20200515 10:57:05.873" endtime="20200515 10:57:05.905"></status>
+<msg timestamp="20200515 13:52:10.836" level="INFO">${AP} = Actual %</msg>
+<status status="PASS" starttime="20200515 13:52:10.805" endtime="20200515 13:52:10.836"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -424,8 +424,8 @@ Without any arguments.</msg>
 <assign>
 <var>${APV}</var>
 </assign>
-<msg timestamp="20200515 10:57:05.937" level="INFO">${APV} = 10.50 %</msg>
-<status status="PASS" starttime="20200515 10:57:05.906" endtime="20200515 10:57:05.937"></status>
+<msg timestamp="20200515 13:52:10.870" level="INFO">${APV} = 10.50 %</msg>
+<status status="PASS" starttime="20200515 13:52:10.837" endtime="20200515 13:52:10.870"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -435,8 +435,8 @@ Without any arguments.</msg>
 <assign>
 <var>${AM}</var>
 </assign>
-<msg timestamp="20200515 10:57:05.960" level="INFO">${AM} = Actual amount</msg>
-<status status="PASS" starttime="20200515 10:57:05.938" endtime="20200515 10:57:05.960"></status>
+<msg timestamp="20200515 13:52:10.900" level="INFO">${AM} = Actual amount</msg>
+<status status="PASS" starttime="20200515 13:52:10.870" endtime="20200515 13:52:10.900"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -446,8 +446,8 @@ Without any arguments.</msg>
 <assign>
 <var>${AMV}</var>
 </assign>
-<msg timestamp="20200515 10:57:05.991" level="INFO">${AMV} = 59,46,862.00</msg>
-<status status="PASS" starttime="20200515 10:57:05.960" endtime="20200515 10:57:05.991"></status>
+<msg timestamp="20200515 13:52:10.931" level="INFO">${AMV} = 59,46,862.00</msg>
+<status status="PASS" starttime="20200515 13:52:10.900" endtime="20200515 13:52:10.931"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -457,8 +457,8 @@ Without any arguments.</msg>
 <assign>
 <var>${VP}</var>
 </assign>
-<msg timestamp="20200515 10:57:06.023" level="INFO">${VP} = Variation %</msg>
-<status status="PASS" starttime="20200515 10:57:05.991" endtime="20200515 10:57:06.023"></status>
+<msg timestamp="20200515 13:52:10.960" level="INFO">${VP} = Variation %</msg>
+<status status="PASS" starttime="20200515 13:52:10.931" endtime="20200515 13:52:10.960"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -468,8 +468,8 @@ Without any arguments.</msg>
 <assign>
 <var>${VPV}</var>
 </assign>
-<msg timestamp="20200515 10:57:06.054" level="INFO">${VPV} = 0.00 %</msg>
-<status status="PASS" starttime="20200515 10:57:06.023" endtime="20200515 10:57:06.054"></status>
+<msg timestamp="20200515 13:52:10.991" level="INFO">${VPV} = 0.00 %</msg>
+<status status="PASS" starttime="20200515 13:52:10.960" endtime="20200515 13:52:10.991"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -479,8 +479,8 @@ Without any arguments.</msg>
 <assign>
 <var>${VM}</var>
 </assign>
-<msg timestamp="20200515 10:57:06.082" level="INFO">${VM} = Variation amount</msg>
-<status status="PASS" starttime="20200515 10:57:06.054" endtime="20200515 10:57:06.082"></status>
+<msg timestamp="20200515 13:52:11.023" level="INFO">${VM} = Variation amount</msg>
+<status status="PASS" starttime="20200515 13:52:10.992" endtime="20200515 13:52:11.023"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -490,60 +490,60 @@ Without any arguments.</msg>
 <assign>
 <var>${VMV}</var>
 </assign>
-<msg timestamp="20200515 10:57:06.113" level="INFO">${VMV} = 0.00</msg>
-<status status="PASS" starttime="20200515 10:57:06.082" endtime="20200515 10:57:06.113"></status>
+<msg timestamp="20200515 13:52:11.055" level="INFO">${VMV} = 0.00</msg>
+<status status="PASS" starttime="20200515 13:52:11.024" endtime="20200515 13:52:11.056"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:57:08.160" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:57:06.113" endtime="20200515 10:57:08.160"></status>
+<msg timestamp="20200515 13:52:13.058" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:52:11.056" endtime="20200515 13:52:13.059"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${GP} is ${GPV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:57:08.160" endtime="20200515 10:57:08.160"></status>
+<status status="PASS" starttime="20200515 13:52:13.060" endtime="20200515 13:52:13.062"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${GA} is ${GAV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:57:08.160" endtime="20200515 10:57:08.160"></status>
+<status status="PASS" starttime="20200515 13:52:13.062" endtime="20200515 13:52:13.064"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${AP} is ${APV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:57:08.160" endtime="20200515 10:57:08.160"></status>
+<status status="PASS" starttime="20200515 13:52:13.065" endtime="20200515 13:52:13.066"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${AM} is ${AMV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:57:08.160" endtime="20200515 10:57:08.160"></status>
+<status status="PASS" starttime="20200515 13:52:13.067" endtime="20200515 13:52:13.068"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${VP} is ${VPV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:57:08.160" endtime="20200515 10:57:08.160"></status>
+<status status="PASS" starttime="20200515 13:52:13.069" endtime="20200515 13:52:13.070"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${VM} is ${VMV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:57:08.160" endtime="20200515 10:57:08.160"></status>
+<status status="PASS" starttime="20200515 13:52:13.070" endtime="20200515 13:52:13.071"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:57:01.637" endtime="20200515 10:57:08.160"></status>
+<status status="PASS" starttime="20200515 13:52:06.596" endtime="20200515 13:52:13.072"></status>
 </kw>
 <kw name="TC_08_Complete the Setup Analysis" library="Salary Increment">
 <kw name="Sleep" library="BuiltIn">
@@ -551,50 +551,50 @@ Without any arguments.</msg>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:57:10.164" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:57:08.160" endtime="20200515 10:57:10.164"></status>
+<msg timestamp="20200515 13:52:15.076" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:52:13.074" endtime="20200515 13:52:15.076"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[contains(text(),'Finish')]</arg>
 </arguments>
-<msg timestamp="20200515 10:57:10.164" level="INFO">Clicking element '//button[contains(text(),'Finish')]'.</msg>
-<status status="PASS" starttime="20200515 10:57:10.164" endtime="20200515 10:57:10.344"></status>
+<msg timestamp="20200515 13:52:15.077" level="INFO">Clicking element '//button[contains(text(),'Finish')]'.</msg>
+<status status="PASS" starttime="20200515 13:52:15.077" endtime="20200515 13:52:15.248"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[contains(text(),'Export Excel')]</arg>
 </arguments>
-<msg timestamp="20200515 10:57:10.345" level="INFO">Clicking element '//button[contains(text(),'Export Excel')]'.</msg>
-<status status="PASS" starttime="20200515 10:57:10.344" endtime="20200515 10:57:12.018"></status>
+<msg timestamp="20200515 13:52:15.250" level="INFO">Clicking element '//button[contains(text(),'Export Excel')]'.</msg>
+<status status="PASS" starttime="20200515 13:52:15.249" endtime="20200515 13:52:16.768"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>5s</arg>
 </arguments>
-<msg timestamp="20200515 10:57:17.019" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20200515 10:57:12.018" endtime="20200515 10:57:17.019"></status>
+<msg timestamp="20200515 13:52:21.770" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200515 13:52:16.768" endtime="20200515 13:52:21.770"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[@class='btn summary-btn-close ng-scope']</arg>
 </arguments>
-<msg timestamp="20200515 10:57:17.019" level="INFO">Clicking element '//button[@class='btn summary-btn-close ng-scope']'.</msg>
-<status status="PASS" starttime="20200515 10:57:17.019" endtime="20200515 10:57:17.286"></status>
+<msg timestamp="20200515 13:52:21.773" level="INFO">Clicking element '//button[@class='btn summary-btn-close ng-scope']'.</msg>
+<status status="PASS" starttime="20200515 13:52:21.772" endtime="20200515 13:52:21.998"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:57:19.301" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:57:17.286" endtime="20200515 10:57:19.301"></status>
+<msg timestamp="20200515 13:52:24.000" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:52:21.998" endtime="20200515 13:52:24.001"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:57:08.160" endtime="20200515 10:57:19.301"></status>
+<status status="PASS" starttime="20200515 13:52:13.073" endtime="20200515 13:52:24.002"></status>
 </kw>
 <kw name="TC_09_Edit the Analysis and change the CTC Salary Item, Goal% and Download the excel file" library="Salary Increment">
 <kw name="Sleep" library="BuiltIn">
@@ -602,48 +602,48 @@ Without any arguments.</msg>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:57:21.316" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:57:19.301" endtime="20200515 10:57:21.316"></status>
+<msg timestamp="20200515 13:52:26.007" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:52:24.006" endtime="20200515 13:52:26.008"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//span[1]//div[1]//table[1]//tbody[1]//tr[1]//td[1]//div[1]//span[2]//i[1]</arg>
 </arguments>
-<msg timestamp="20200515 10:57:21.316" level="INFO">Clicking element '//span[1]//div[1]//table[1]//tbody[1]//tr[1]//td[1]//div[1]//span[2]//i[1]'.</msg>
-<status status="PASS" starttime="20200515 10:57:21.316" endtime="20200515 10:57:21.410"></status>
+<msg timestamp="20200515 13:52:26.011" level="INFO">Clicking element '//span[1]//div[1]//table[1]//tbody[1]//tr[1]//td[1]//div[1]//span[2]//i[1]'.</msg>
+<status status="PASS" starttime="20200515 13:52:26.009" endtime="20200515 13:52:26.127"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:57:23.425" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:57:21.412" endtime="20200515 10:57:23.425"></status>
+<msg timestamp="20200515 13:52:28.128" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:52:26.128" endtime="20200515 13:52:28.128"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//div[@class='main-content']//div[2]//div[1]//div[1]//a[1]//div[1]//b[1]</arg>
 </arguments>
-<msg timestamp="20200515 10:57:23.425" level="INFO">Clicking element '//div[@class='main-content']//div[2]//div[1]//div[1]//a[1]//div[1]//b[1]'.</msg>
-<status status="PASS" starttime="20200515 10:57:23.425" endtime="20200515 10:57:23.735"></status>
+<msg timestamp="20200515 13:52:28.131" level="INFO">Clicking element '//div[@class='main-content']//div[2]//div[1]//div[1]//a[1]//div[1]//b[1]'.</msg>
+<status status="PASS" starttime="20200515 13:52:28.129" endtime="20200515 13:52:28.440"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//div[contains(text(),'LY_CTC')]</arg>
 </arguments>
-<msg timestamp="20200515 10:57:23.736" level="INFO">Clicking element '//div[contains(text(),'LY_CTC')]'.</msg>
-<status status="PASS" starttime="20200515 10:57:23.736" endtime="20200515 10:57:23.912"></status>
+<msg timestamp="20200515 13:52:28.442" level="INFO">Clicking element '//div[contains(text(),'LY_CTC')]'.</msg>
+<status status="PASS" starttime="20200515 13:52:28.441" endtime="20200515 13:52:28.629"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:57:25.925" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:57:23.913" endtime="20200515 10:57:25.925"></status>
+<msg timestamp="20200515 13:52:30.631" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:52:28.629" endtime="20200515 13:52:30.631"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -651,8 +651,8 @@ Without any arguments.</msg>
 <arg>//input[@type='number']</arg>
 <arg>20.2</arg>
 </arguments>
-<msg timestamp="20200515 10:57:25.925" level="INFO">Typing text '20.2' into text field '//input[@type='number']'.</msg>
-<status status="PASS" starttime="20200515 10:57:25.925" endtime="20200515 10:57:26.193"></status>
+<msg timestamp="20200515 13:52:30.635" level="INFO">Typing text '20.2' into text field '//input[@type='number']'.</msg>
+<status status="PASS" starttime="20200515 13:52:30.633" endtime="20200515 13:52:30.975"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -662,8 +662,8 @@ Without any arguments.</msg>
 <assign>
 <var>${CS}</var>
 </assign>
-<msg timestamp="20200515 10:57:26.234" level="INFO">${CS} = Current Salary Amount</msg>
-<status status="PASS" starttime="20200515 10:57:26.194" endtime="20200515 10:57:26.235"></status>
+<msg timestamp="20200515 13:52:31.010" level="INFO">${CS} = Current Salary Amount</msg>
+<status status="PASS" starttime="20200515 13:52:30.975" endtime="20200515 13:52:31.010"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -673,8 +673,8 @@ Without any arguments.</msg>
 <assign>
 <var>${CSA}</var>
 </assign>
-<msg timestamp="20200515 10:57:26.277" level="INFO">${CSA} = 47,19,731.00</msg>
-<status status="PASS" starttime="20200515 10:57:26.235" endtime="20200515 10:57:26.278"></status>
+<msg timestamp="20200515 13:52:31.047" level="INFO">${CSA} = 47,19,731.00</msg>
+<status status="PASS" starttime="20200515 13:52:31.011" endtime="20200515 13:52:31.047"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -684,8 +684,8 @@ Without any arguments.</msg>
 <assign>
 <var>${RS}</var>
 </assign>
-<msg timestamp="20200515 10:57:26.312" level="INFO">${RS} = Revised Salary Amount</msg>
-<status status="PASS" starttime="20200515 10:57:26.278" endtime="20200515 10:57:26.312"></status>
+<msg timestamp="20200515 13:52:31.081" level="INFO">${RS} = Revised Salary Amount</msg>
+<status status="PASS" starttime="20200515 13:52:31.048" endtime="20200515 13:52:31.081"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -695,8 +695,8 @@ Without any arguments.</msg>
 <assign>
 <var>${RSA}</var>
 </assign>
-<msg timestamp="20200515 10:57:26.347" level="INFO">${RSA} = 56,73,117.00</msg>
-<status status="PASS" starttime="20200515 10:57:26.312" endtime="20200515 10:57:26.347"></status>
+<msg timestamp="20200515 13:52:31.115" level="INFO">${RSA} = 56,73,117.00</msg>
+<status status="PASS" starttime="20200515 13:52:31.082" endtime="20200515 13:52:31.115"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -706,8 +706,8 @@ Without any arguments.</msg>
 <assign>
 <var>${TEC}</var>
 </assign>
-<msg timestamp="20200515 10:57:26.380" level="INFO">${TEC} = Total Employee Count</msg>
-<status status="PASS" starttime="20200515 10:57:26.347" endtime="20200515 10:57:26.381"></status>
+<msg timestamp="20200515 13:52:31.149" level="INFO">${TEC} = Total Employee Count</msg>
+<status status="PASS" starttime="20200515 13:52:31.116" endtime="20200515 13:52:31.149"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -717,8 +717,8 @@ Without any arguments.</msg>
 <assign>
 <var>${EC}</var>
 </assign>
-<msg timestamp="20200515 10:57:26.417" level="INFO">${EC} = 40</msg>
-<status status="PASS" starttime="20200515 10:57:26.381" endtime="20200515 10:57:26.417"></status>
+<msg timestamp="20200515 13:52:31.182" level="INFO">${EC} = 40</msg>
+<status status="PASS" starttime="20200515 13:52:31.150" endtime="20200515 13:52:31.182"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -728,8 +728,8 @@ Without any arguments.</msg>
 <assign>
 <var>${G}</var>
 </assign>
-<msg timestamp="20200515 10:57:26.451" level="INFO">${G} = Goal Amount</msg>
-<status status="PASS" starttime="20200515 10:57:26.417" endtime="20200515 10:57:26.451"></status>
+<msg timestamp="20200515 13:52:31.217" level="INFO">${G} = Goal Amount</msg>
+<status status="PASS" starttime="20200515 13:52:31.183" endtime="20200515 13:52:31.218"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -739,60 +739,60 @@ Without any arguments.</msg>
 <assign>
 <var>${GA}</var>
 </assign>
-<msg timestamp="20200515 10:57:26.485" level="INFO">${GA} = 9,53,386.00</msg>
-<status status="PASS" starttime="20200515 10:57:26.452" endtime="20200515 10:57:26.485"></status>
+<msg timestamp="20200515 13:52:31.252" level="INFO">${GA} = 9,53,386.00</msg>
+<status status="PASS" starttime="20200515 13:52:31.218" endtime="20200515 13:52:31.252"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:57:28.488" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:57:26.486" endtime="20200515 10:57:28.488"></status>
+<msg timestamp="20200515 13:52:33.255" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:52:31.253" endtime="20200515 13:52:33.255"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${CS} is ${CSA}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:57:28.488" endtime="20200515 10:57:28.488"></status>
+<status status="PASS" starttime="20200515 13:52:33.256" endtime="20200515 13:52:33.258"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${RS} is ${RSA}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:57:28.492" endtime="20200515 10:57:28.494"></status>
+<status status="PASS" starttime="20200515 13:52:33.259" endtime="20200515 13:52:33.260"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${TEC}is ${EC}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:57:28.494" endtime="20200515 10:57:28.494"></status>
+<status status="PASS" starttime="20200515 13:52:33.261" endtime="20200515 13:52:33.262"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${G} is ${GA}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:57:28.494" endtime="20200515 10:57:28.494"></status>
+<status status="PASS" starttime="20200515 13:52:33.263" endtime="20200515 13:52:33.265"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[contains(text(),'Next')]</arg>
 </arguments>
-<msg timestamp="20200515 10:57:28.494" level="INFO">Clicking element '//button[contains(text(),'Next')]'.</msg>
-<status status="PASS" starttime="20200515 10:57:28.494" endtime="20200515 10:57:28.677"></status>
+<msg timestamp="20200515 13:52:33.266" level="INFO">Clicking element '//button[contains(text(),'Next')]'.</msg>
+<status status="PASS" starttime="20200515 13:52:33.266" endtime="20200515 13:52:33.415"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:57:30.691" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:57:28.678" endtime="20200515 10:57:30.691"></status>
+<msg timestamp="20200515 13:52:35.417" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:52:33.416" endtime="20200515 13:52:35.418"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -800,16 +800,16 @@ Without any arguments.</msg>
 <arg>//input[@placeholder='Frequency']</arg>
 <arg>20000</arg>
 </arguments>
-<msg timestamp="20200515 10:57:30.691" level="INFO">Typing text '20000' into text field '//input[@placeholder='Frequency']'.</msg>
-<status status="PASS" starttime="20200515 10:57:30.691" endtime="20200515 10:57:31.018"></status>
+<msg timestamp="20200515 13:52:35.420" level="INFO">Typing text '20000' into text field '//input[@placeholder='Frequency']'.</msg>
+<status status="PASS" starttime="20200515 13:52:35.418" endtime="20200515 13:52:35.740"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:57:33.019" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:57:31.018" endtime="20200515 10:57:33.019"></status>
+<msg timestamp="20200515 13:52:37.744" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:52:35.741" endtime="20200515 13:52:37.745"></status>
 </kw>
 <kw name="Scroll Page To Location" library="Revision Planner Keywords">
 <arguments>
@@ -821,20 +821,20 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${x_location},${y_location})</arg>
 </arguments>
-<msg timestamp="20200515 10:57:33.019" level="INFO">Executing JavaScript:
+<msg timestamp="20200515 13:52:37.751" level="INFO">Executing JavaScript:
 window.scrollTo(0,2000)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200515 10:57:33.019" endtime="20200515 10:57:33.069"></status>
+<status status="PASS" starttime="20200515 13:52:37.749" endtime="20200515 13:52:37.809"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:57:33.019" endtime="20200515 10:57:33.069"></status>
+<status status="PASS" starttime="20200515 13:52:37.746" endtime="20200515 13:52:37.809"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:57:35.082" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:57:33.070" endtime="20200515 10:57:35.082"></status>
+<msg timestamp="20200515 13:52:39.813" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:52:37.810" endtime="20200515 13:52:39.813"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -844,8 +844,8 @@ Without any arguments.</msg>
 <assign>
 <var>${GP}</var>
 </assign>
-<msg timestamp="20200515 10:57:35.144" level="INFO">${GP} = Goal %</msg>
-<status status="PASS" starttime="20200515 10:57:35.082" endtime="20200515 10:57:35.144"></status>
+<msg timestamp="20200515 13:52:39.877" level="INFO">${GP} = Goal %</msg>
+<status status="PASS" starttime="20200515 13:52:39.814" endtime="20200515 13:52:39.878"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -855,8 +855,8 @@ Without any arguments.</msg>
 <assign>
 <var>${GPV}</var>
 </assign>
-<msg timestamp="20200515 10:57:35.175" level="INFO">${GPV} = 20.20 %</msg>
-<status status="PASS" starttime="20200515 10:57:35.144" endtime="20200515 10:57:35.175"></status>
+<msg timestamp="20200515 13:52:39.910" level="INFO">${GPV} = 20.20 %</msg>
+<status status="PASS" starttime="20200515 13:52:39.878" endtime="20200515 13:52:39.910"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -866,8 +866,8 @@ Without any arguments.</msg>
 <assign>
 <var>${GA}</var>
 </assign>
-<msg timestamp="20200515 10:57:35.207" level="INFO">${GA} = Goal amount</msg>
-<status status="PASS" starttime="20200515 10:57:35.175" endtime="20200515 10:57:35.207"></status>
+<msg timestamp="20200515 13:52:39.940" level="INFO">${GA} = Goal amount</msg>
+<status status="PASS" starttime="20200515 13:52:39.911" endtime="20200515 13:52:39.940"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -877,8 +877,8 @@ Without any arguments.</msg>
 <assign>
 <var>${GAV}</var>
 </assign>
-<msg timestamp="20200515 10:57:35.222" level="INFO">${GAV} = Goal amount</msg>
-<status status="PASS" starttime="20200515 10:57:35.207" endtime="20200515 10:57:35.222"></status>
+<msg timestamp="20200515 13:52:39.960" level="INFO">${GAV} = Goal amount</msg>
+<status status="PASS" starttime="20200515 13:52:39.940" endtime="20200515 13:52:39.960"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -888,8 +888,8 @@ Without any arguments.</msg>
 <assign>
 <var>${AP}</var>
 </assign>
-<msg timestamp="20200515 10:57:35.266" level="INFO">${AP} = Actual %</msg>
-<status status="PASS" starttime="20200515 10:57:35.222" endtime="20200515 10:57:35.266"></status>
+<msg timestamp="20200515 13:52:39.993" level="INFO">${AP} = Actual %</msg>
+<status status="PASS" starttime="20200515 13:52:39.960" endtime="20200515 13:52:39.994"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -899,8 +899,8 @@ Without any arguments.</msg>
 <assign>
 <var>${APV}</var>
 </assign>
-<msg timestamp="20200515 10:57:35.298" level="INFO">${APV} = 20.20 %</msg>
-<status status="PASS" starttime="20200515 10:57:35.266" endtime="20200515 10:57:35.298"></status>
+<msg timestamp="20200515 13:52:40.026" level="INFO">${APV} = 20.20 %</msg>
+<status status="PASS" starttime="20200515 13:52:39.994" endtime="20200515 13:52:40.027"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -910,8 +910,8 @@ Without any arguments.</msg>
 <assign>
 <var>${AM}</var>
 </assign>
-<msg timestamp="20200515 10:57:35.329" level="INFO">${AM} = Actual amount</msg>
-<status status="PASS" starttime="20200515 10:57:35.299" endtime="20200515 10:57:35.329"></status>
+<msg timestamp="20200515 13:52:40.058" level="INFO">${AM} = Actual amount</msg>
+<status status="PASS" starttime="20200515 13:52:40.027" endtime="20200515 13:52:40.058"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -921,8 +921,8 @@ Without any arguments.</msg>
 <assign>
 <var>${AMV}</var>
 </assign>
-<msg timestamp="20200515 10:57:35.351" level="INFO">${AMV} = 9,53,386.00</msg>
-<status status="PASS" starttime="20200515 10:57:35.330" endtime="20200515 10:57:35.351"></status>
+<msg timestamp="20200515 13:52:40.089" level="INFO">${AMV} = 9,53,386.00</msg>
+<status status="PASS" starttime="20200515 13:52:40.059" endtime="20200515 13:52:40.090"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -932,8 +932,8 @@ Without any arguments.</msg>
 <assign>
 <var>${VP}</var>
 </assign>
-<msg timestamp="20200515 10:57:35.379" level="INFO">${VP} = Variation %</msg>
-<status status="PASS" starttime="20200515 10:57:35.351" endtime="20200515 10:57:35.379"></status>
+<msg timestamp="20200515 13:52:40.119" level="INFO">${VP} = Variation %</msg>
+<status status="PASS" starttime="20200515 13:52:40.090" endtime="20200515 13:52:40.119"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -943,8 +943,8 @@ Without any arguments.</msg>
 <assign>
 <var>${VPV}</var>
 </assign>
-<msg timestamp="20200515 10:57:35.410" level="INFO">${VPV} = 0.00 %</msg>
-<status status="PASS" starttime="20200515 10:57:35.379" endtime="20200515 10:57:35.410"></status>
+<msg timestamp="20200515 13:52:40.151" level="INFO">${VPV} = 0.00 %</msg>
+<status status="PASS" starttime="20200515 13:52:40.120" endtime="20200515 13:52:40.151"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -954,8 +954,8 @@ Without any arguments.</msg>
 <assign>
 <var>${VM}</var>
 </assign>
-<msg timestamp="20200515 10:57:35.441" level="INFO">${VM} = Variation amount</msg>
-<status status="PASS" starttime="20200515 10:57:35.410" endtime="20200515 10:57:35.441"></status>
+<msg timestamp="20200515 13:52:40.184" level="INFO">${VM} = Variation amount</msg>
+<status status="PASS" starttime="20200515 13:52:40.152" endtime="20200515 13:52:40.184"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -965,126 +965,126 @@ Without any arguments.</msg>
 <assign>
 <var>${VMV}</var>
 </assign>
-<msg timestamp="20200515 10:57:35.472" level="INFO">${VMV} = 0.00</msg>
-<status status="PASS" starttime="20200515 10:57:35.441" endtime="20200515 10:57:35.472"></status>
+<msg timestamp="20200515 13:52:40.217" level="INFO">${VMV} = 0.00</msg>
+<status status="PASS" starttime="20200515 13:52:40.184" endtime="20200515 13:52:40.217"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:57:37.472" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:57:35.472" endtime="20200515 10:57:37.472"></status>
+<msg timestamp="20200515 13:52:42.219" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:52:40.217" endtime="20200515 13:52:42.219"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${GP} is ${GPV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:57:37.472" endtime="20200515 10:57:37.472"></status>
+<status status="PASS" starttime="20200515 13:52:42.220" endtime="20200515 13:52:42.223"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${GA} is ${GAV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:57:37.477" endtime="20200515 10:57:37.478"></status>
+<status status="PASS" starttime="20200515 13:52:42.224" endtime="20200515 13:52:42.225"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${AP} is ${APV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:57:37.478" endtime="20200515 10:57:37.478"></status>
+<status status="PASS" starttime="20200515 13:52:42.226" endtime="20200515 13:52:42.227"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${AM} is ${AMV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:57:37.478" endtime="20200515 10:57:37.478"></status>
+<status status="PASS" starttime="20200515 13:52:42.228" endtime="20200515 13:52:42.229"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${VP} is ${VPV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:57:37.478" endtime="20200515 10:57:37.478"></status>
+<status status="PASS" starttime="20200515 13:52:42.230" endtime="20200515 13:52:42.231"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${VM} is ${VMV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:57:37.478" endtime="20200515 10:57:37.478"></status>
+<status status="PASS" starttime="20200515 13:52:42.232" endtime="20200515 13:52:42.233"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:57:39.504" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:57:37.478" endtime="20200515 10:57:39.504"></status>
+<msg timestamp="20200515 13:52:44.234" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:52:42.233" endtime="20200515 13:52:44.235"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[contains(text(),'Finish')]</arg>
 </arguments>
-<msg timestamp="20200515 10:57:39.509" level="INFO">Clicking element '//button[contains(text(),'Finish')]'.</msg>
-<status status="PASS" starttime="20200515 10:57:39.504" endtime="20200515 10:57:39.651"></status>
+<msg timestamp="20200515 13:52:44.237" level="INFO">Clicking element '//button[contains(text(),'Finish')]'.</msg>
+<status status="PASS" starttime="20200515 13:52:44.236" endtime="20200515 13:52:44.392"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[contains(text(),'Export Excel')]</arg>
 </arguments>
-<msg timestamp="20200515 10:57:39.653" level="INFO">Clicking element '//button[contains(text(),'Export Excel')]'.</msg>
-<status status="PASS" starttime="20200515 10:57:39.652" endtime="20200515 10:57:41.033"></status>
+<msg timestamp="20200515 13:52:44.394" level="INFO">Clicking element '//button[contains(text(),'Export Excel')]'.</msg>
+<status status="PASS" starttime="20200515 13:52:44.392" endtime="20200515 13:52:45.539"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>5s</arg>
 </arguments>
-<msg timestamp="20200515 10:57:46.035" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20200515 10:57:41.033" endtime="20200515 10:57:46.035"></status>
+<msg timestamp="20200515 13:52:50.540" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200515 13:52:45.540" endtime="20200515 13:52:50.540"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[@class='btn summary-btn-close ng-scope']</arg>
 </arguments>
-<msg timestamp="20200515 10:57:46.035" level="INFO">Clicking element '//button[@class='btn summary-btn-close ng-scope']'.</msg>
-<status status="PASS" starttime="20200515 10:57:46.035" endtime="20200515 10:57:46.216"></status>
+<msg timestamp="20200515 13:52:50.544" level="INFO">Clicking element '//button[@class='btn summary-btn-close ng-scope']'.</msg>
+<status status="PASS" starttime="20200515 13:52:50.542" endtime="20200515 13:52:50.735"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:57:48.223" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:57:46.217" endtime="20200515 10:57:48.223"></status>
+<msg timestamp="20200515 13:52:52.738" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:52:50.736" endtime="20200515 13:52:52.739"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//span[1]//div[1]//table[1]//tbody[1]//tr[1]//td[1]//div[1]//span[2]//i[2]</arg>
 </arguments>
-<msg timestamp="20200515 10:57:48.223" level="INFO">Clicking element '//span[1]//div[1]//table[1]//tbody[1]//tr[1]//td[1]//div[1]//span[2]//i[2]'.</msg>
-<status status="PASS" starttime="20200515 10:57:48.223" endtime="20200515 10:57:48.334"></status>
+<msg timestamp="20200515 13:52:52.741" level="INFO">Clicking element '//span[1]//div[1]//table[1]//tbody[1]//tr[1]//td[1]//div[1]//span[2]//i[2]'.</msg>
+<status status="PASS" starttime="20200515 13:52:52.740" endtime="20200515 13:52:52.854"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:57:50.336" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:57:48.335" endtime="20200515 10:57:50.336"></status>
+<msg timestamp="20200515 13:52:54.854" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:52:52.854" endtime="20200515 13:52:54.855"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:57:19.301" endtime="20200515 10:57:50.336"></status>
+<status status="PASS" starttime="20200515 13:52:24.003" endtime="20200515 13:52:54.856"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:56:46.611" endtime="20200515 10:57:50.337" critical="yes"></status>
+<status status="PASS" starttime="20200515 13:51:51.881" endtime="20200515 13:52:54.857" critical="yes"></status>
 </test>
 <test id="s1-s1-s1-s1-s1-t3" name="Salary Deferment">
 <kw name="TC_10_Create New Analysis" library="Salary Deferment">
@@ -1093,18 +1093,18 @@ Without any arguments.</msg>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:57:52.348" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:57:50.339" endtime="20200515 10:57:52.348"></status>
+<msg timestamp="20200515 13:52:56.866" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:52:54.865" endtime="20200515 13:52:56.866"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[@class='btn btn-primary pull-right']</arg>
 </arguments>
-<msg timestamp="20200515 10:57:52.348" level="INFO">Clicking element '//button[@class='btn btn-primary pull-right']'.</msg>
-<status status="PASS" starttime="20200515 10:57:52.348" endtime="20200515 10:57:52.457"></status>
+<msg timestamp="20200515 13:52:56.869" level="INFO">Clicking element '//button[@class='btn btn-primary pull-right']'.</msg>
+<status status="PASS" starttime="20200515 13:52:56.867" endtime="20200515 13:52:56.988"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:57:50.338" endtime="20200515 10:57:52.457"></status>
+<status status="PASS" starttime="20200515 13:52:54.862" endtime="20200515 13:52:56.989"></status>
 </kw>
 <kw name="TC_11_Select the Goal as Salary Deferment" library="Salary Deferment">
 <kw name="Sleep" library="BuiltIn">
@@ -1112,26 +1112,26 @@ Without any arguments.</msg>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:57:54.457" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:57:52.457" endtime="20200515 10:57:54.457"></status>
+<msg timestamp="20200515 13:52:58.990" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:52:56.990" endtime="20200515 13:52:58.991"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//div[@class='span6']//div[1]//div[1]//div[1]//a[1]//div[1]//b[1]</arg>
 </arguments>
-<msg timestamp="20200515 10:57:54.457" level="INFO">Clicking element '//div[@class='span6']//div[1]//div[1]//div[1]//a[1]//div[1]//b[1]'.</msg>
-<status status="PASS" starttime="20200515 10:57:54.457" endtime="20200515 10:57:54.600"></status>
+<msg timestamp="20200515 13:52:58.994" level="INFO">Clicking element '//div[@class='span6']//div[1]//div[1]//div[1]//a[1]//div[1]//b[1]'.</msg>
+<status status="PASS" starttime="20200515 13:52:58.992" endtime="20200515 13:52:59.160"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//div[contains(text(),'Salary Deferment')]</arg>
 </arguments>
-<msg timestamp="20200515 10:57:54.602" level="INFO">Clicking element '//div[contains(text(),'Salary Deferment')]'.</msg>
-<status status="PASS" starttime="20200515 10:57:54.601" endtime="20200515 10:57:54.734"></status>
+<msg timestamp="20200515 13:52:59.161" level="INFO">Clicking element '//div[contains(text(),'Salary Deferment')]'.</msg>
+<status status="PASS" starttime="20200515 13:52:59.160" endtime="20200515 13:52:59.307"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:57:52.457" endtime="20200515 10:57:54.734"></status>
+<status status="PASS" starttime="20200515 13:52:56.989" endtime="20200515 13:52:59.308"></status>
 </kw>
 <kw name="TC_12_Select the CTC Salary Item as Monthly CTC" library="Salary Deferment">
 <kw name="Sleep" library="BuiltIn">
@@ -1139,26 +1139,26 @@ Without any arguments.</msg>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:57:56.738" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:57:54.735" endtime="20200515 10:57:56.738"></status>
+<msg timestamp="20200515 13:53:01.310" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:52:59.309" endtime="20200515 13:53:01.310"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//div[@class='main-content']//div[2]//div[1]//div[1]//a[1]//div[1]//b[1]</arg>
 </arguments>
-<msg timestamp="20200515 10:57:56.738" level="INFO">Clicking element '//div[@class='main-content']//div[2]//div[1]//div[1]//a[1]//div[1]//b[1]'.</msg>
-<status status="PASS" starttime="20200515 10:57:56.738" endtime="20200515 10:57:57.023"></status>
+<msg timestamp="20200515 13:53:01.313" level="INFO">Clicking element '//div[@class='main-content']//div[2]//div[1]//div[1]//a[1]//div[1]//b[1]'.</msg>
+<status status="PASS" starttime="20200515 13:53:01.312" endtime="20200515 13:53:01.563"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//div[contains(text(),'LY_CTC')]</arg>
 </arguments>
-<msg timestamp="20200515 10:57:57.024" level="INFO">Clicking element '//div[contains(text(),'LY_CTC')]'.</msg>
-<status status="PASS" starttime="20200515 10:57:57.024" endtime="20200515 10:57:57.164"></status>
+<msg timestamp="20200515 13:53:01.564" level="INFO">Clicking element '//div[contains(text(),'LY_CTC')]'.</msg>
+<status status="PASS" starttime="20200515 13:53:01.563" endtime="20200515 13:53:01.702"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:57:54.735" endtime="20200515 10:57:57.164"></status>
+<status status="PASS" starttime="20200515 13:52:59.308" endtime="20200515 13:53:01.703"></status>
 </kw>
 <kw name="TC_13_Enter the Goal % and verify the Current Salary, Revised Salary and Total Employee Count" library="Salary Deferment">
 <kw name="Sleep" library="BuiltIn">
@@ -1166,8 +1166,8 @@ Without any arguments.</msg>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:57:59.176" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:57:57.165" endtime="20200515 10:57:59.176"></status>
+<msg timestamp="20200515 13:53:03.704" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:53:01.704" endtime="20200515 13:53:03.704"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -1175,8 +1175,8 @@ Without any arguments.</msg>
 <arg>//input[@type='number']</arg>
 <arg>20</arg>
 </arguments>
-<msg timestamp="20200515 10:57:59.176" level="INFO">Typing text '20' into text field '//input[@type='number']'.</msg>
-<status status="PASS" starttime="20200515 10:57:59.176" endtime="20200515 10:57:59.398"></status>
+<msg timestamp="20200515 13:53:03.707" level="INFO">Typing text '20' into text field '//input[@type='number']'.</msg>
+<status status="PASS" starttime="20200515 13:53:03.705" endtime="20200515 13:53:03.906"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1186,8 +1186,8 @@ Without any arguments.</msg>
 <assign>
 <var>${CS}</var>
 </assign>
-<msg timestamp="20200515 10:57:59.431" level="INFO">${CS} = Current Salary Amount</msg>
-<status status="PASS" starttime="20200515 10:57:59.398" endtime="20200515 10:57:59.431"></status>
+<msg timestamp="20200515 13:53:03.942" level="INFO">${CS} = Current Salary Amount</msg>
+<status status="PASS" starttime="20200515 13:53:03.906" endtime="20200515 13:53:03.942"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1197,8 +1197,8 @@ Without any arguments.</msg>
 <assign>
 <var>${CSA}</var>
 </assign>
-<msg timestamp="20200515 10:57:59.465" level="INFO">${CSA} = 47,19,731.00</msg>
-<status status="PASS" starttime="20200515 10:57:59.432" endtime="20200515 10:57:59.465"></status>
+<msg timestamp="20200515 13:53:03.974" level="INFO">${CSA} = 47,19,731.00</msg>
+<status status="PASS" starttime="20200515 13:53:03.942" endtime="20200515 13:53:03.974"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1208,8 +1208,8 @@ Without any arguments.</msg>
 <assign>
 <var>${RS}</var>
 </assign>
-<msg timestamp="20200515 10:57:59.488" level="INFO">${RS} = Revised Salary Amount</msg>
-<status status="PASS" starttime="20200515 10:57:59.466" endtime="20200515 10:57:59.488"></status>
+<msg timestamp="20200515 13:53:04.057" level="INFO">${RS} = Revised Salary Amount</msg>
+<status status="PASS" starttime="20200515 13:53:03.975" endtime="20200515 13:53:04.057"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1219,8 +1219,8 @@ Without any arguments.</msg>
 <assign>
 <var>${RSA}</var>
 </assign>
-<msg timestamp="20200515 10:57:59.530" level="INFO">${RSA} = 37,75,785.00</msg>
-<status status="PASS" starttime="20200515 10:57:59.488" endtime="20200515 10:57:59.530"></status>
+<msg timestamp="20200515 13:53:04.097" level="INFO">${RSA} = 37,75,785.00</msg>
+<status status="PASS" starttime="20200515 13:53:04.058" endtime="20200515 13:53:04.098"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1230,8 +1230,8 @@ Without any arguments.</msg>
 <assign>
 <var>${TEC}</var>
 </assign>
-<msg timestamp="20200515 10:57:59.562" level="INFO">${TEC} = Total Employee Count</msg>
-<status status="PASS" starttime="20200515 10:57:59.530" endtime="20200515 10:57:59.563"></status>
+<msg timestamp="20200515 13:53:04.130" level="INFO">${TEC} = Total Employee Count</msg>
+<status status="PASS" starttime="20200515 13:53:04.098" endtime="20200515 13:53:04.130"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1241,8 +1241,8 @@ Without any arguments.</msg>
 <assign>
 <var>${EC}</var>
 </assign>
-<msg timestamp="20200515 10:57:59.595" level="INFO">${EC} = 40</msg>
-<status status="PASS" starttime="20200515 10:57:59.563" endtime="20200515 10:57:59.595"></status>
+<msg timestamp="20200515 13:53:04.162" level="INFO">${EC} = 40</msg>
+<status status="PASS" starttime="20200515 13:53:04.130" endtime="20200515 13:53:04.162"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1252,8 +1252,8 @@ Without any arguments.</msg>
 <assign>
 <var>${G}</var>
 </assign>
-<msg timestamp="20200515 10:57:59.625" level="INFO">${G} = Goal Amount</msg>
-<status status="PASS" starttime="20200515 10:57:59.595" endtime="20200515 10:57:59.625"></status>
+<msg timestamp="20200515 13:53:04.199" level="INFO">${G} = Goal Amount</msg>
+<status status="PASS" starttime="20200515 13:53:04.162" endtime="20200515 13:53:04.199"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1263,54 +1263,54 @@ Without any arguments.</msg>
 <assign>
 <var>${GA}</var>
 </assign>
-<msg timestamp="20200515 10:57:59.658" level="INFO">${GA} = 9,43,946.00</msg>
-<status status="PASS" starttime="20200515 10:57:59.626" endtime="20200515 10:57:59.658"></status>
+<msg timestamp="20200515 13:53:04.231" level="INFO">${GA} = 9,43,946.00</msg>
+<status status="PASS" starttime="20200515 13:53:04.199" endtime="20200515 13:53:04.231"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:58:01.660" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:57:59.658" endtime="20200515 10:58:01.660"></status>
+<msg timestamp="20200515 13:53:06.233" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:53:04.231" endtime="20200515 13:53:06.233"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${CS} is ${CSA}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:58:01.660" endtime="20200515 10:58:01.660"></status>
+<status status="PASS" starttime="20200515 13:53:06.234" endtime="20200515 13:53:06.236"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${RS} is ${RSA}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:58:01.664" endtime="20200515 10:58:01.665"></status>
+<status status="PASS" starttime="20200515 13:53:06.237" endtime="20200515 13:53:06.238"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${TEC}is ${EC}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:58:01.665" endtime="20200515 10:58:01.665"></status>
+<status status="PASS" starttime="20200515 13:53:06.239" endtime="20200515 13:53:06.240"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${G} is ${GA}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:58:01.665" endtime="20200515 10:58:01.665"></status>
+<status status="PASS" starttime="20200515 13:53:06.241" endtime="20200515 13:53:06.245"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[contains(text(),'Next')]</arg>
 </arguments>
-<msg timestamp="20200515 10:58:01.665" level="INFO">Clicking element '//button[contains(text(),'Next')]'.</msg>
-<status status="PASS" starttime="20200515 10:58:01.665" endtime="20200515 10:58:01.797"></status>
+<msg timestamp="20200515 13:53:06.248" level="INFO">Clicking element '//button[contains(text(),'Next')]'.</msg>
+<status status="PASS" starttime="20200515 13:53:06.246" endtime="20200515 13:53:06.363"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:57:57.165" endtime="20200515 10:58:01.798"></status>
+<status status="PASS" starttime="20200515 13:53:01.703" endtime="20200515 13:53:06.364"></status>
 </kw>
 <kw name="TC_14_Verify the Band Frequency and change the Band Value" library="Salary Deferment">
 <kw name="Sleep" library="BuiltIn">
@@ -1318,8 +1318,8 @@ Without any arguments.</msg>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:58:03.801" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:58:01.799" endtime="20200515 10:58:03.801"></status>
+<msg timestamp="20200515 13:53:08.367" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:53:06.366" endtime="20200515 13:53:08.367"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -1327,10 +1327,10 @@ Without any arguments.</msg>
 <arg>//input[@placeholder='Frequency']</arg>
 <arg>60000</arg>
 </arguments>
-<msg timestamp="20200515 10:58:03.801" level="INFO">Typing text '60000' into text field '//input[@placeholder='Frequency']'.</msg>
-<status status="PASS" starttime="20200515 10:58:03.801" endtime="20200515 10:58:04.106"></status>
+<msg timestamp="20200515 13:53:08.370" level="INFO">Typing text '60000' into text field '//input[@placeholder='Frequency']'.</msg>
+<status status="PASS" starttime="20200515 13:53:08.368" endtime="20200515 13:53:08.686"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:58:01.799" endtime="20200515 10:58:04.107"></status>
+<status status="PASS" starttime="20200515 13:53:06.365" endtime="20200515 13:53:08.687"></status>
 </kw>
 <kw name="TC_15_Verify the Goal Summary, Actual Amount and Variations" library="Salary Deferment">
 <kw name="Sleep" library="BuiltIn">
@@ -1338,8 +1338,8 @@ Without any arguments.</msg>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:58:06.113" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:58:04.108" endtime="20200515 10:58:06.113"></status>
+<msg timestamp="20200515 13:53:10.690" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:53:08.689" endtime="20200515 13:53:10.690"></status>
 </kw>
 <kw name="Scroll Page To Location" library="Revision Planner Keywords">
 <arguments>
@@ -1351,20 +1351,20 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${x_location},${y_location})</arg>
 </arguments>
-<msg timestamp="20200515 10:58:06.113" level="INFO">Executing JavaScript:
+<msg timestamp="20200515 13:53:10.696" level="INFO">Executing JavaScript:
 window.scrollTo(0,2000)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200515 10:58:06.113" endtime="20200515 10:58:06.161"></status>
+<status status="PASS" starttime="20200515 13:53:10.694" endtime="20200515 13:53:10.749"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:58:06.113" endtime="20200515 10:58:06.161"></status>
+<status status="PASS" starttime="20200515 13:53:10.691" endtime="20200515 13:53:10.750"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:58:08.176" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:58:06.161" endtime="20200515 10:58:08.176"></status>
+<msg timestamp="20200515 13:53:12.752" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:53:10.750" endtime="20200515 13:53:12.752"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1374,8 +1374,8 @@ Without any arguments.</msg>
 <assign>
 <var>${GP}</var>
 </assign>
-<msg timestamp="20200515 10:58:08.238" level="INFO">${GP} = Goal %</msg>
-<status status="PASS" starttime="20200515 10:58:08.176" endtime="20200515 10:58:08.238"></status>
+<msg timestamp="20200515 13:53:12.800" level="INFO">${GP} = Goal %</msg>
+<status status="PASS" starttime="20200515 13:53:12.753" endtime="20200515 13:53:12.800"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1385,8 +1385,8 @@ Without any arguments.</msg>
 <assign>
 <var>${GPV}</var>
 </assign>
-<msg timestamp="20200515 10:58:08.269" level="INFO">${GPV} = 20.00 %</msg>
-<status status="PASS" starttime="20200515 10:58:08.238" endtime="20200515 10:58:08.269"></status>
+<msg timestamp="20200515 13:53:12.839" level="INFO">${GPV} = 20.00 %</msg>
+<status status="PASS" starttime="20200515 13:53:12.800" endtime="20200515 13:53:12.839"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1396,8 +1396,8 @@ Without any arguments.</msg>
 <assign>
 <var>${GA}</var>
 </assign>
-<msg timestamp="20200515 10:58:08.300" level="INFO">${GA} = Goal amount</msg>
-<status status="PASS" starttime="20200515 10:58:08.269" endtime="20200515 10:58:08.300"></status>
+<msg timestamp="20200515 13:53:12.869" level="INFO">${GA} = Goal amount</msg>
+<status status="PASS" starttime="20200515 13:53:12.839" endtime="20200515 13:53:12.869"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1407,8 +1407,8 @@ Without any arguments.</msg>
 <assign>
 <var>${GAV}</var>
 </assign>
-<msg timestamp="20200515 10:58:08.316" level="INFO">${GAV} = Goal amount</msg>
-<status status="PASS" starttime="20200515 10:58:08.300" endtime="20200515 10:58:08.316"></status>
+<msg timestamp="20200515 13:53:12.892" level="INFO">${GAV} = Goal amount</msg>
+<status status="PASS" starttime="20200515 13:53:12.869" endtime="20200515 13:53:12.892"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1418,8 +1418,8 @@ Without any arguments.</msg>
 <assign>
 <var>${AP}</var>
 </assign>
-<msg timestamp="20200515 10:58:08.352" level="INFO">${AP} = Actual %</msg>
-<status status="PASS" starttime="20200515 10:58:08.316" endtime="20200515 10:58:08.352"></status>
+<msg timestamp="20200515 13:53:12.929" level="INFO">${AP} = Actual %</msg>
+<status status="PASS" starttime="20200515 13:53:12.892" endtime="20200515 13:53:12.929"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1429,8 +1429,8 @@ Without any arguments.</msg>
 <assign>
 <var>${APV}</var>
 </assign>
-<msg timestamp="20200515 10:58:08.380" level="INFO">${APV} = 20.00 %</msg>
-<status status="PASS" starttime="20200515 10:58:08.354" endtime="20200515 10:58:08.380"></status>
+<msg timestamp="20200515 13:53:12.970" level="INFO">${APV} = 20.00 %</msg>
+<status status="PASS" starttime="20200515 13:53:12.929" endtime="20200515 13:53:12.970"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1440,8 +1440,8 @@ Without any arguments.</msg>
 <assign>
 <var>${AM}</var>
 </assign>
-<msg timestamp="20200515 10:58:08.416" level="INFO">${AM} = Actual amount</msg>
-<status status="PASS" starttime="20200515 10:58:08.380" endtime="20200515 10:58:08.417"></status>
+<msg timestamp="20200515 13:53:13.002" level="INFO">${AM} = Actual amount</msg>
+<status status="PASS" starttime="20200515 13:53:12.971" endtime="20200515 13:53:13.003"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1451,8 +1451,8 @@ Without any arguments.</msg>
 <assign>
 <var>${AMV}</var>
 </assign>
-<msg timestamp="20200515 10:58:08.449" level="INFO">${AMV} = 9,43,946.00</msg>
-<status status="PASS" starttime="20200515 10:58:08.417" endtime="20200515 10:58:08.449"></status>
+<msg timestamp="20200515 13:53:13.035" level="INFO">${AMV} = 9,43,946.00</msg>
+<status status="PASS" starttime="20200515 13:53:13.003" endtime="20200515 13:53:13.035"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1462,8 +1462,8 @@ Without any arguments.</msg>
 <assign>
 <var>${VP}</var>
 </assign>
-<msg timestamp="20200515 10:58:08.474" level="INFO">${VP} = Variation %</msg>
-<status status="PASS" starttime="20200515 10:58:08.450" endtime="20200515 10:58:08.474"></status>
+<msg timestamp="20200515 13:53:13.067" level="INFO">${VP} = Variation %</msg>
+<status status="PASS" starttime="20200515 13:53:13.036" endtime="20200515 13:53:13.067"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1473,8 +1473,8 @@ Without any arguments.</msg>
 <assign>
 <var>${VPV}</var>
 </assign>
-<msg timestamp="20200515 10:58:08.504" level="INFO">${VPV} = 0.00 %</msg>
-<status status="PASS" starttime="20200515 10:58:08.474" endtime="20200515 10:58:08.504"></status>
+<msg timestamp="20200515 13:53:13.102" level="INFO">${VPV} = 0.00 %</msg>
+<status status="PASS" starttime="20200515 13:53:13.067" endtime="20200515 13:53:13.102"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1484,8 +1484,8 @@ Without any arguments.</msg>
 <assign>
 <var>${VM}</var>
 </assign>
-<msg timestamp="20200515 10:58:08.535" level="INFO">${VM} = Variation amount</msg>
-<status status="PASS" starttime="20200515 10:58:08.504" endtime="20200515 10:58:08.535"></status>
+<msg timestamp="20200515 13:53:13.134" level="INFO">${VM} = Variation amount</msg>
+<status status="PASS" starttime="20200515 13:53:13.102" endtime="20200515 13:53:13.134"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1495,60 +1495,60 @@ Without any arguments.</msg>
 <assign>
 <var>${VMV}</var>
 </assign>
-<msg timestamp="20200515 10:58:08.566" level="INFO">${VMV} = 0.00</msg>
-<status status="PASS" starttime="20200515 10:58:08.535" endtime="20200515 10:58:08.566"></status>
+<msg timestamp="20200515 13:53:13.170" level="INFO">${VMV} = 0.00</msg>
+<status status="PASS" starttime="20200515 13:53:13.135" endtime="20200515 13:53:13.170"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:58:10.566" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:58:08.566" endtime="20200515 10:58:10.566"></status>
+<msg timestamp="20200515 13:53:15.172" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:53:13.170" endtime="20200515 13:53:15.173"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${GP} is ${GPV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:58:10.566" endtime="20200515 10:58:10.566"></status>
+<status status="PASS" starttime="20200515 13:53:15.174" endtime="20200515 13:53:15.176"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${GA} is ${GAV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:58:10.570" endtime="20200515 10:58:10.571"></status>
+<status status="PASS" starttime="20200515 13:53:15.176" endtime="20200515 13:53:15.178"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${AP} is ${APV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:58:10.571" endtime="20200515 10:58:10.571"></status>
+<status status="PASS" starttime="20200515 13:53:15.178" endtime="20200515 13:53:15.179"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${AM} is ${AMV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:58:10.571" endtime="20200515 10:58:10.571"></status>
+<status status="PASS" starttime="20200515 13:53:15.180" endtime="20200515 13:53:15.181"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${VP} is ${VPV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:58:10.571" endtime="20200515 10:58:10.571"></status>
+<status status="PASS" starttime="20200515 13:53:15.182" endtime="20200515 13:53:15.183"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${VM} is ${VMV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:58:10.571" endtime="20200515 10:58:10.571"></status>
+<status status="PASS" starttime="20200515 13:53:15.184" endtime="20200515 13:53:15.185"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:58:04.107" endtime="20200515 10:58:10.582"></status>
+<status status="PASS" starttime="20200515 13:53:08.688" endtime="20200515 13:53:15.186"></status>
 </kw>
 <kw name="TC_16_Complete the Setup Analysis" library="Salary Deferment">
 <kw name="Sleep" library="BuiltIn">
@@ -1556,50 +1556,50 @@ Without any arguments.</msg>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:58:12.583" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:58:10.582" endtime="20200515 10:58:12.584"></status>
+<msg timestamp="20200515 13:53:17.190" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:53:15.188" endtime="20200515 13:53:17.190"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[contains(text(),'Finish')]</arg>
 </arguments>
-<msg timestamp="20200515 10:58:12.589" level="INFO">Clicking element '//button[contains(text(),'Finish')]'.</msg>
-<status status="PASS" starttime="20200515 10:58:12.585" endtime="20200515 10:58:12.786"></status>
+<msg timestamp="20200515 13:53:17.191" level="INFO">Clicking element '//button[contains(text(),'Finish')]'.</msg>
+<status status="PASS" starttime="20200515 13:53:17.191" endtime="20200515 13:53:17.332"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[contains(text(),'Export Excel')]</arg>
 </arguments>
-<msg timestamp="20200515 10:58:12.788" level="INFO">Clicking element '//button[contains(text(),'Export Excel')]'.</msg>
-<status status="PASS" starttime="20200515 10:58:12.787" endtime="20200515 10:58:13.845"></status>
+<msg timestamp="20200515 13:53:17.333" level="INFO">Clicking element '//button[contains(text(),'Export Excel')]'.</msg>
+<status status="PASS" starttime="20200515 13:53:17.333" endtime="20200515 13:53:18.433"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:58:15.847" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:58:13.845" endtime="20200515 10:58:15.847"></status>
+<msg timestamp="20200515 13:53:20.435" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:53:18.433" endtime="20200515 13:53:20.436"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[@class='btn summary-btn-close ng-scope']</arg>
 </arguments>
-<msg timestamp="20200515 10:58:15.849" level="INFO">Clicking element '//button[@class='btn summary-btn-close ng-scope']'.</msg>
-<status status="PASS" starttime="20200515 10:58:15.847" endtime="20200515 10:58:16.150"></status>
+<msg timestamp="20200515 13:53:20.438" level="INFO">Clicking element '//button[@class='btn summary-btn-close ng-scope']'.</msg>
+<status status="PASS" starttime="20200515 13:53:20.436" endtime="20200515 13:53:20.692"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:58:18.160" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:58:16.151" endtime="20200515 10:58:18.160"></status>
+<msg timestamp="20200515 13:53:22.695" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:53:20.693" endtime="20200515 13:53:22.696"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:58:10.582" endtime="20200515 10:58:18.160"></status>
+<status status="PASS" starttime="20200515 13:53:15.187" endtime="20200515 13:53:22.697"></status>
 </kw>
 <kw name="TC_17_Edit the Analysis and change the CTC Salary Item, Goal% and Download the excel file" library="Salary Deferment">
 <kw name="Sleep" library="BuiltIn">
@@ -1607,48 +1607,48 @@ Without any arguments.</msg>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:58:20.176" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:58:18.160" endtime="20200515 10:58:20.176"></status>
+<msg timestamp="20200515 13:53:24.702" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:53:22.699" endtime="20200515 13:53:24.702"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//span[2]//div[1]//table[1]//tbody[1]//tr[1]//td[1]//div[1]//span[2]//i[1]</arg>
 </arguments>
-<msg timestamp="20200515 10:58:20.176" level="INFO">Clicking element '//span[2]//div[1]//table[1]//tbody[1]//tr[1]//td[1]//div[1]//span[2]//i[1]'.</msg>
-<status status="PASS" starttime="20200515 10:58:20.176" endtime="20200515 10:58:20.284"></status>
+<msg timestamp="20200515 13:53:24.705" level="INFO">Clicking element '//span[2]//div[1]//table[1]//tbody[1]//tr[1]//td[1]//div[1]//span[2]//i[1]'.</msg>
+<status status="PASS" starttime="20200515 13:53:24.704" endtime="20200515 13:53:24.826"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:58:22.301" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:58:20.284" endtime="20200515 10:58:22.301"></status>
+<msg timestamp="20200515 13:53:26.827" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:53:24.826" endtime="20200515 13:53:26.827"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//div[@class='main-content']//div[2]//div[1]//div[1]//a[1]//div[1]//b[1]</arg>
 </arguments>
-<msg timestamp="20200515 10:58:22.301" level="INFO">Clicking element '//div[@class='main-content']//div[2]//div[1]//div[1]//a[1]//div[1]//b[1]'.</msg>
-<status status="PASS" starttime="20200515 10:58:22.301" endtime="20200515 10:58:22.622"></status>
+<msg timestamp="20200515 13:53:26.830" level="INFO">Clicking element '//div[@class='main-content']//div[2]//div[1]//div[1]//a[1]//div[1]//b[1]'.</msg>
+<status status="PASS" starttime="20200515 13:53:26.829" endtime="20200515 13:53:27.185"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//div[contains(text(),'ANNUAL_CTC')]</arg>
 </arguments>
-<msg timestamp="20200515 10:58:22.623" level="INFO">Clicking element '//div[contains(text(),'ANNUAL_CTC')]'.</msg>
-<status status="PASS" starttime="20200515 10:58:22.623" endtime="20200515 10:58:22.789"></status>
+<msg timestamp="20200515 13:53:27.186" level="INFO">Clicking element '//div[contains(text(),'ANNUAL_CTC')]'.</msg>
+<status status="PASS" starttime="20200515 13:53:27.185" endtime="20200515 13:53:27.340"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:58:24.800" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:58:22.790" endtime="20200515 10:58:24.800"></status>
+<msg timestamp="20200515 13:53:29.342" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:53:27.341" endtime="20200515 13:53:29.342"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -1656,8 +1656,8 @@ Without any arguments.</msg>
 <arg>//input[@type='number']</arg>
 <arg>20.2</arg>
 </arguments>
-<msg timestamp="20200515 10:58:24.800" level="INFO">Typing text '20.2' into text field '//input[@type='number']'.</msg>
-<status status="PASS" starttime="20200515 10:58:24.800" endtime="20200515 10:58:25.070"></status>
+<msg timestamp="20200515 13:53:29.353" level="INFO">Typing text '20.2' into text field '//input[@type='number']'.</msg>
+<status status="PASS" starttime="20200515 13:53:29.344" endtime="20200515 13:53:29.607"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1667,8 +1667,8 @@ Without any arguments.</msg>
 <assign>
 <var>${CS}</var>
 </assign>
-<msg timestamp="20200515 10:58:25.106" level="INFO">${CS} = Current Salary Amount</msg>
-<status status="PASS" starttime="20200515 10:58:25.070" endtime="20200515 10:58:25.106"></status>
+<msg timestamp="20200515 13:53:29.641" level="INFO">${CS} = Current Salary Amount</msg>
+<status status="PASS" starttime="20200515 13:53:29.607" endtime="20200515 13:53:29.641"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1678,8 +1678,8 @@ Without any arguments.</msg>
 <assign>
 <var>${CSA}</var>
 </assign>
-<msg timestamp="20200515 10:58:25.141" level="INFO">${CSA} = 5,66,36,781.00</msg>
-<status status="PASS" starttime="20200515 10:58:25.107" endtime="20200515 10:58:25.141"></status>
+<msg timestamp="20200515 13:53:29.674" level="INFO">${CSA} = 5,66,36,781.00</msg>
+<status status="PASS" starttime="20200515 13:53:29.641" endtime="20200515 13:53:29.674"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1689,8 +1689,8 @@ Without any arguments.</msg>
 <assign>
 <var>${RS}</var>
 </assign>
-<msg timestamp="20200515 10:58:25.175" level="INFO">${RS} = Revised Salary Amount</msg>
-<status status="PASS" starttime="20200515 10:58:25.141" endtime="20200515 10:58:25.175"></status>
+<msg timestamp="20200515 13:53:29.707" level="INFO">${RS} = Revised Salary Amount</msg>
+<status status="PASS" starttime="20200515 13:53:29.674" endtime="20200515 13:53:29.707"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1700,8 +1700,8 @@ Without any arguments.</msg>
 <assign>
 <var>${RSA}</var>
 </assign>
-<msg timestamp="20200515 10:58:25.209" level="INFO">${RSA} = 4,51,96,151.00</msg>
-<status status="PASS" starttime="20200515 10:58:25.175" endtime="20200515 10:58:25.209"></status>
+<msg timestamp="20200515 13:53:29.741" level="INFO">${RSA} = 4,51,96,151.00</msg>
+<status status="PASS" starttime="20200515 13:53:29.708" endtime="20200515 13:53:29.741"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1711,8 +1711,8 @@ Without any arguments.</msg>
 <assign>
 <var>${TEC}</var>
 </assign>
-<msg timestamp="20200515 10:58:25.243" level="INFO">${TEC} = Total Employee Count</msg>
-<status status="PASS" starttime="20200515 10:58:25.210" endtime="20200515 10:58:25.244"></status>
+<msg timestamp="20200515 13:53:29.776" level="INFO">${TEC} = Total Employee Count</msg>
+<status status="PASS" starttime="20200515 13:53:29.741" endtime="20200515 13:53:29.776"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1722,8 +1722,8 @@ Without any arguments.</msg>
 <assign>
 <var>${EC}</var>
 </assign>
-<msg timestamp="20200515 10:58:25.278" level="INFO">${EC} = 40</msg>
-<status status="PASS" starttime="20200515 10:58:25.244" endtime="20200515 10:58:25.278"></status>
+<msg timestamp="20200515 13:53:29.810" level="INFO">${EC} = 40</msg>
+<status status="PASS" starttime="20200515 13:53:29.776" endtime="20200515 13:53:29.811"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1733,8 +1733,8 @@ Without any arguments.</msg>
 <assign>
 <var>${G}</var>
 </assign>
-<msg timestamp="20200515 10:58:25.317" level="INFO">${G} = Goal Amount</msg>
-<status status="PASS" starttime="20200515 10:58:25.279" endtime="20200515 10:58:25.317"></status>
+<msg timestamp="20200515 13:53:29.846" level="INFO">${G} = Goal Amount</msg>
+<status status="PASS" starttime="20200515 13:53:29.811" endtime="20200515 13:53:29.847"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1744,60 +1744,60 @@ Without any arguments.</msg>
 <assign>
 <var>${GA}</var>
 </assign>
-<msg timestamp="20200515 10:58:25.391" level="INFO">${GA} = 1,14,40,630.00</msg>
-<status status="PASS" starttime="20200515 10:58:25.318" endtime="20200515 10:58:25.391"></status>
+<msg timestamp="20200515 13:53:29.881" level="INFO">${GA} = 1,14,40,630.00</msg>
+<status status="PASS" starttime="20200515 13:53:29.847" endtime="20200515 13:53:29.881"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:58:27.394" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:58:25.392" endtime="20200515 10:58:27.394"></status>
+<msg timestamp="20200515 13:53:31.883" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:53:29.882" endtime="20200515 13:53:31.883"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${CS} is ${CSA}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:58:27.394" endtime="20200515 10:58:27.394"></status>
+<status status="PASS" starttime="20200515 13:53:31.884" endtime="20200515 13:53:31.886"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${RS} is ${RSA}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:58:27.398" endtime="20200515 10:58:27.399"></status>
+<status status="PASS" starttime="20200515 13:53:31.887" endtime="20200515 13:53:31.889"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${TEC}is ${EC}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:58:27.399" endtime="20200515 10:58:27.399"></status>
+<status status="PASS" starttime="20200515 13:53:31.890" endtime="20200515 13:53:31.892"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${G} is ${GA}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:58:27.399" endtime="20200515 10:58:27.399"></status>
+<status status="PASS" starttime="20200515 13:53:31.893" endtime="20200515 13:53:31.894"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[contains(text(),'Next')]</arg>
 </arguments>
-<msg timestamp="20200515 10:58:27.399" level="INFO">Clicking element '//button[contains(text(),'Next')]'.</msg>
-<status status="PASS" starttime="20200515 10:58:27.399" endtime="20200515 10:58:27.526"></status>
+<msg timestamp="20200515 13:53:31.896" level="INFO">Clicking element '//button[contains(text(),'Next')]'.</msg>
+<status status="PASS" starttime="20200515 13:53:31.895" endtime="20200515 13:53:32.015"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:58:29.535" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:58:27.527" endtime="20200515 10:58:29.535"></status>
+<msg timestamp="20200515 13:53:34.016" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:53:32.015" endtime="20200515 13:53:34.016"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -1805,16 +1805,16 @@ Without any arguments.</msg>
 <arg>//input[@placeholder='Frequency']</arg>
 <arg>70000</arg>
 </arguments>
-<msg timestamp="20200515 10:58:29.535" level="INFO">Typing text '70000' into text field '//input[@placeholder='Frequency']'.</msg>
-<status status="PASS" starttime="20200515 10:58:29.535" endtime="20200515 10:58:29.853"></status>
+<msg timestamp="20200515 13:53:34.019" level="INFO">Typing text '70000' into text field '//input[@placeholder='Frequency']'.</msg>
+<status status="PASS" starttime="20200515 13:53:34.017" endtime="20200515 13:53:34.339"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:58:31.863" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:58:29.854" endtime="20200515 10:58:31.863"></status>
+<msg timestamp="20200515 13:53:36.341" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:53:34.339" endtime="20200515 13:53:36.342"></status>
 </kw>
 <kw name="Scroll Page To Location" library="Revision Planner Keywords">
 <arguments>
@@ -1826,20 +1826,20 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${x_location},${y_location})</arg>
 </arguments>
-<msg timestamp="20200515 10:58:31.863" level="INFO">Executing JavaScript:
+<msg timestamp="20200515 13:53:36.347" level="INFO">Executing JavaScript:
 window.scrollTo(0,2000)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200515 10:58:31.863" endtime="20200515 10:58:31.900"></status>
+<status status="PASS" starttime="20200515 13:53:36.345" endtime="20200515 13:53:36.399"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:58:31.863" endtime="20200515 10:58:31.900"></status>
+<status status="PASS" starttime="20200515 13:53:36.342" endtime="20200515 13:53:36.400"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:58:33.910" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:58:31.900" endtime="20200515 10:58:33.910"></status>
+<msg timestamp="20200515 13:53:38.401" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:53:36.400" endtime="20200515 13:53:38.401"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1849,8 +1849,8 @@ Without any arguments.</msg>
 <assign>
 <var>${GP}</var>
 </assign>
-<msg timestamp="20200515 10:58:33.957" level="INFO">${GP} = Goal %</msg>
-<status status="PASS" starttime="20200515 10:58:33.910" endtime="20200515 10:58:33.957"></status>
+<msg timestamp="20200515 13:53:38.471" level="INFO">${GP} = Goal %</msg>
+<status status="PASS" starttime="20200515 13:53:38.403" endtime="20200515 13:53:38.472"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1860,8 +1860,8 @@ Without any arguments.</msg>
 <assign>
 <var>${GPV}</var>
 </assign>
-<msg timestamp="20200515 10:58:34.004" level="INFO">${GPV} = 20.20 %</msg>
-<status status="PASS" starttime="20200515 10:58:33.957" endtime="20200515 10:58:34.004"></status>
+<msg timestamp="20200515 13:53:38.505" level="INFO">${GPV} = 20.20 %</msg>
+<status status="PASS" starttime="20200515 13:53:38.472" endtime="20200515 13:53:38.505"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1871,8 +1871,8 @@ Without any arguments.</msg>
 <assign>
 <var>${GA}</var>
 </assign>
-<msg timestamp="20200515 10:58:34.035" level="INFO">${GA} = Goal amount</msg>
-<status status="PASS" starttime="20200515 10:58:34.004" endtime="20200515 10:58:34.035"></status>
+<msg timestamp="20200515 13:53:38.533" level="INFO">${GA} = Goal amount</msg>
+<status status="PASS" starttime="20200515 13:53:38.505" endtime="20200515 13:53:38.534"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1882,8 +1882,8 @@ Without any arguments.</msg>
 <assign>
 <var>${GAV}</var>
 </assign>
-<msg timestamp="20200515 10:58:34.051" level="INFO">${GAV} = Goal amount</msg>
-<status status="PASS" starttime="20200515 10:58:34.035" endtime="20200515 10:58:34.051"></status>
+<msg timestamp="20200515 13:53:38.553" level="INFO">${GAV} = Goal amount</msg>
+<status status="PASS" starttime="20200515 13:53:38.534" endtime="20200515 13:53:38.553"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1893,8 +1893,8 @@ Without any arguments.</msg>
 <assign>
 <var>${AP}</var>
 </assign>
-<msg timestamp="20200515 10:58:34.090" level="INFO">${AP} = Actual %</msg>
-<status status="PASS" starttime="20200515 10:58:34.051" endtime="20200515 10:58:34.090"></status>
+<msg timestamp="20200515 13:53:38.586" level="INFO">${AP} = Actual %</msg>
+<status status="PASS" starttime="20200515 13:53:38.554" endtime="20200515 13:53:38.586"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1904,8 +1904,8 @@ Without any arguments.</msg>
 <assign>
 <var>${APV}</var>
 </assign>
-<msg timestamp="20200515 10:58:34.125" level="INFO">${APV} = 20.20 %</msg>
-<status status="PASS" starttime="20200515 10:58:34.091" endtime="20200515 10:58:34.125"></status>
+<msg timestamp="20200515 13:53:38.621" level="INFO">${APV} = 20.20 %</msg>
+<status status="PASS" starttime="20200515 13:53:38.587" endtime="20200515 13:53:38.621"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1915,8 +1915,8 @@ Without any arguments.</msg>
 <assign>
 <var>${AM}</var>
 </assign>
-<msg timestamp="20200515 10:58:34.153" level="INFO">${AM} = Actual amount</msg>
-<status status="PASS" starttime="20200515 10:58:34.125" endtime="20200515 10:58:34.153"></status>
+<msg timestamp="20200515 13:53:38.652" level="INFO">${AM} = Actual amount</msg>
+<status status="PASS" starttime="20200515 13:53:38.622" endtime="20200515 13:53:38.652"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1926,8 +1926,8 @@ Without any arguments.</msg>
 <assign>
 <var>${AMV}</var>
 </assign>
-<msg timestamp="20200515 10:58:34.184" level="INFO">${AMV} = 1,14,40,630.00</msg>
-<status status="PASS" starttime="20200515 10:58:34.153" endtime="20200515 10:58:34.184"></status>
+<msg timestamp="20200515 13:53:38.683" level="INFO">${AMV} = 1,14,40,630.00</msg>
+<status status="PASS" starttime="20200515 13:53:38.652" endtime="20200515 13:53:38.684"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1937,8 +1937,8 @@ Without any arguments.</msg>
 <assign>
 <var>${VP}</var>
 </assign>
-<msg timestamp="20200515 10:58:34.207" level="INFO">${VP} = Variation %</msg>
-<status status="PASS" starttime="20200515 10:58:34.184" endtime="20200515 10:58:34.207"></status>
+<msg timestamp="20200515 13:53:38.713" level="INFO">${VP} = Variation %</msg>
+<status status="PASS" starttime="20200515 13:53:38.684" endtime="20200515 13:53:38.713"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1948,8 +1948,8 @@ Without any arguments.</msg>
 <assign>
 <var>${VPV}</var>
 </assign>
-<msg timestamp="20200515 10:58:34.254" level="INFO">${VPV} = 0.00 %</msg>
-<status status="PASS" starttime="20200515 10:58:34.207" endtime="20200515 10:58:34.254"></status>
+<msg timestamp="20200515 13:53:38.747" level="INFO">${VPV} = 0.00 %</msg>
+<status status="PASS" starttime="20200515 13:53:38.714" endtime="20200515 13:53:38.747"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1959,8 +1959,8 @@ Without any arguments.</msg>
 <assign>
 <var>${VM}</var>
 </assign>
-<msg timestamp="20200515 10:58:34.269" level="INFO">${VM} = Variation amount</msg>
-<status status="PASS" starttime="20200515 10:58:34.254" endtime="20200515 10:58:34.285"></status>
+<msg timestamp="20200515 13:53:38.776" level="INFO">${VM} = Variation amount</msg>
+<status status="PASS" starttime="20200515 13:53:38.747" endtime="20200515 13:53:38.776"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -1970,126 +1970,126 @@ Without any arguments.</msg>
 <assign>
 <var>${VMV}</var>
 </assign>
-<msg timestamp="20200515 10:58:34.316" level="INFO">${VMV} = 0.00</msg>
-<status status="PASS" starttime="20200515 10:58:34.285" endtime="20200515 10:58:34.316"></status>
+<msg timestamp="20200515 13:53:38.809" level="INFO">${VMV} = 0.00</msg>
+<status status="PASS" starttime="20200515 13:53:38.777" endtime="20200515 13:53:38.809"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:58:36.324" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:58:34.316" endtime="20200515 10:58:36.324"></status>
+<msg timestamp="20200515 13:53:40.811" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:53:38.809" endtime="20200515 13:53:40.812"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${GP} is ${GPV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:58:36.324" endtime="20200515 10:58:36.324"></status>
+<status status="PASS" starttime="20200515 13:53:40.812" endtime="20200515 13:53:40.814"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${GA} is ${GAV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:58:36.328" endtime="20200515 10:58:36.329"></status>
+<status status="PASS" starttime="20200515 13:53:40.815" endtime="20200515 13:53:40.816"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${AP} is ${APV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:58:36.330" endtime="20200515 10:58:36.330"></status>
+<status status="PASS" starttime="20200515 13:53:40.817" endtime="20200515 13:53:40.818"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${AM} is ${AMV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:58:36.332" endtime="20200515 10:58:36.332"></status>
+<status status="PASS" starttime="20200515 13:53:40.819" endtime="20200515 13:53:40.820"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${VP} is ${VPV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:58:36.332" endtime="20200515 10:58:36.332"></status>
+<status status="PASS" starttime="20200515 13:53:40.821" endtime="20200515 13:53:40.822"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${VM} is ${VMV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:58:36.332" endtime="20200515 10:58:36.332"></status>
+<status status="PASS" starttime="20200515 13:53:40.822" endtime="20200515 13:53:40.823"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:58:38.333" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:58:36.332" endtime="20200515 10:58:38.334"></status>
+<msg timestamp="20200515 13:53:42.827" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:53:40.824" endtime="20200515 13:53:42.828"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[contains(text(),'Finish')]</arg>
 </arguments>
-<msg timestamp="20200515 10:58:38.338" level="INFO">Clicking element '//button[contains(text(),'Finish')]'.</msg>
-<status status="PASS" starttime="20200515 10:58:38.336" endtime="20200515 10:58:38.596"></status>
+<msg timestamp="20200515 13:53:42.831" level="INFO">Clicking element '//button[contains(text(),'Finish')]'.</msg>
+<status status="PASS" starttime="20200515 13:53:42.829" endtime="20200515 13:53:43.061"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[contains(text(),'Export Excel')]</arg>
 </arguments>
-<msg timestamp="20200515 10:58:38.598" level="INFO">Clicking element '//button[contains(text(),'Export Excel')]'.</msg>
-<status status="PASS" starttime="20200515 10:58:38.598" endtime="20200515 10:58:40.263"></status>
+<msg timestamp="20200515 13:53:43.062" level="INFO">Clicking element '//button[contains(text(),'Export Excel')]'.</msg>
+<status status="PASS" starttime="20200515 13:53:43.062" endtime="20200515 13:53:44.512"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>5s</arg>
 </arguments>
-<msg timestamp="20200515 10:58:45.270" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20200515 10:58:40.263" endtime="20200515 10:58:45.270"></status>
+<msg timestamp="20200515 13:53:49.515" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200515 13:53:44.513" endtime="20200515 13:53:49.515"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[@class='btn summary-btn-close ng-scope']</arg>
 </arguments>
-<msg timestamp="20200515 10:58:45.270" level="INFO">Clicking element '//button[@class='btn summary-btn-close ng-scope']'.</msg>
-<status status="PASS" starttime="20200515 10:58:45.270" endtime="20200515 10:58:45.487"></status>
+<msg timestamp="20200515 13:53:49.518" level="INFO">Clicking element '//button[@class='btn summary-btn-close ng-scope']'.</msg>
+<status status="PASS" starttime="20200515 13:53:49.516" endtime="20200515 13:53:49.705"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:58:47.504" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:58:45.487" endtime="20200515 10:58:47.504"></status>
+<msg timestamp="20200515 13:53:51.708" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:53:49.706" endtime="20200515 13:53:51.709"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//span[2]//div[1]//table[1]//tbody[1]//tr[1]//td[1]//div[1]//span[2]//i[2]</arg>
 </arguments>
-<msg timestamp="20200515 10:58:47.504" level="INFO">Clicking element '//span[2]//div[1]//table[1]//tbody[1]//tr[1]//td[1]//div[1]//span[2]//i[2]'.</msg>
-<status status="PASS" starttime="20200515 10:58:47.504" endtime="20200515 10:58:47.621"></status>
+<msg timestamp="20200515 13:53:51.711" level="INFO">Clicking element '//span[2]//div[1]//table[1]//tbody[1]//tr[1]//td[1]//div[1]//span[2]//i[2]'.</msg>
+<status status="PASS" starttime="20200515 13:53:51.709" endtime="20200515 13:53:51.872"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:58:49.623" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:58:47.621" endtime="20200515 10:58:49.623"></status>
+<msg timestamp="20200515 13:53:53.874" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:53:51.872" endtime="20200515 13:53:53.874"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:58:18.160" endtime="20200515 10:58:49.623"></status>
+<status status="PASS" starttime="20200515 13:53:22.697" endtime="20200515 13:53:53.875"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:57:50.338" endtime="20200515 10:58:49.623" critical="yes"></status>
+<status status="PASS" starttime="20200515 13:52:54.860" endtime="20200515 13:53:53.876" critical="yes"></status>
 </test>
 <test id="s1-s1-s1-s1-s1-t4" name="Salary Cut">
 <kw name="TC_18_Create New Analysis" library="Salary Cut">
@@ -2098,18 +2098,18 @@ Without any arguments.</msg>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:58:51.629" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:58:49.629" endtime="20200515 10:58:51.629"></status>
+<msg timestamp="20200515 13:53:55.885" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:53:53.883" endtime="20200515 13:53:55.885"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[@class='btn btn-primary pull-right']</arg>
 </arguments>
-<msg timestamp="20200515 10:58:51.629" level="INFO">Clicking element '//button[@class='btn btn-primary pull-right']'.</msg>
-<status status="PASS" starttime="20200515 10:58:51.629" endtime="20200515 10:58:51.759"></status>
+<msg timestamp="20200515 13:53:55.888" level="INFO">Clicking element '//button[@class='btn btn-primary pull-right']'.</msg>
+<status status="PASS" starttime="20200515 13:53:55.886" endtime="20200515 13:53:56.004"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:58:49.629" endtime="20200515 10:58:51.760"></status>
+<status status="PASS" starttime="20200515 13:53:53.881" endtime="20200515 13:53:56.005"></status>
 </kw>
 <kw name="TC_19_Select the Goal as Salary Cut" library="Salary Cut">
 <kw name="Sleep" library="BuiltIn">
@@ -2117,26 +2117,26 @@ Without any arguments.</msg>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:58:53.769" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:58:51.761" endtime="20200515 10:58:53.769"></status>
+<msg timestamp="20200515 13:53:58.007" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:53:56.006" endtime="20200515 13:53:58.008"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//div[@class='span6']//div[1]//div[1]//div[1]//a[1]//div[1]//b[1]</arg>
 </arguments>
-<msg timestamp="20200515 10:58:53.769" level="INFO">Clicking element '//div[@class='span6']//div[1]//div[1]//div[1]//a[1]//div[1]//b[1]'.</msg>
-<status status="PASS" starttime="20200515 10:58:53.769" endtime="20200515 10:58:53.945"></status>
+<msg timestamp="20200515 13:53:58.010" level="INFO">Clicking element '//div[@class='span6']//div[1]//div[1]//div[1]//a[1]//div[1]//b[1]'.</msg>
+<status status="PASS" starttime="20200515 13:53:58.008" endtime="20200515 13:53:58.128"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//div[contains(text(),'Salary Cut')]</arg>
 </arguments>
-<msg timestamp="20200515 10:58:53.946" level="INFO">Clicking element '//div[contains(text(),'Salary Cut')]'.</msg>
-<status status="PASS" starttime="20200515 10:58:53.945" endtime="20200515 10:58:54.121"></status>
+<msg timestamp="20200515 13:53:58.130" level="INFO">Clicking element '//div[contains(text(),'Salary Cut')]'.</msg>
+<status status="PASS" starttime="20200515 13:53:58.129" endtime="20200515 13:53:58.307"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:58:51.760" endtime="20200515 10:58:54.122"></status>
+<status status="PASS" starttime="20200515 13:53:56.005" endtime="20200515 13:53:58.308"></status>
 </kw>
 <kw name="TC_20_Select the CTC Salary Item as Basic" library="Salary Cut">
 <kw name="Sleep" library="BuiltIn">
@@ -2144,26 +2144,26 @@ Without any arguments.</msg>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:58:56.129" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:58:54.123" endtime="20200515 10:58:56.129"></status>
+<msg timestamp="20200515 13:54:00.310" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:53:58.309" endtime="20200515 13:54:00.311"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//div[@class='main-content']//div[2]//div[1]//div[1]//a[1]//div[1]//b[1]</arg>
 </arguments>
-<msg timestamp="20200515 10:58:56.129" level="INFO">Clicking element '//div[@class='main-content']//div[2]//div[1]//div[1]//a[1]//div[1]//b[1]'.</msg>
-<status status="PASS" starttime="20200515 10:58:56.129" endtime="20200515 10:58:56.386"></status>
+<msg timestamp="20200515 13:54:00.313" level="INFO">Clicking element '//div[@class='main-content']//div[2]//div[1]//div[1]//a[1]//div[1]//b[1]'.</msg>
+<status status="PASS" starttime="20200515 13:54:00.311" endtime="20200515 13:54:00.583"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//div[contains(text(),'ANNUAL_CTC')]</arg>
 </arguments>
-<msg timestamp="20200515 10:58:56.387" level="INFO">Clicking element '//div[contains(text(),'ANNUAL_CTC')]'.</msg>
-<status status="PASS" starttime="20200515 10:58:56.387" endtime="20200515 10:58:56.581"></status>
+<msg timestamp="20200515 13:54:00.584" level="INFO">Clicking element '//div[contains(text(),'ANNUAL_CTC')]'.</msg>
+<status status="PASS" starttime="20200515 13:54:00.583" endtime="20200515 13:54:00.739"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:58:54.123" endtime="20200515 10:58:56.582"></status>
+<status status="PASS" starttime="20200515 13:53:58.308" endtime="20200515 13:54:00.740"></status>
 </kw>
 <kw name="TC_21_Enter the Goal % and verify the Current Salary, Revised Salary and Total Employee Count" library="Salary Cut">
 <kw name="Sleep" library="BuiltIn">
@@ -2171,8 +2171,8 @@ Without any arguments.</msg>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:58:58.598" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:58:56.583" endtime="20200515 10:58:58.598"></status>
+<msg timestamp="20200515 13:54:02.743" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:54:00.742" endtime="20200515 13:54:02.744"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -2180,8 +2180,8 @@ Without any arguments.</msg>
 <arg>//input[@type='number']</arg>
 <arg>20.4</arg>
 </arguments>
-<msg timestamp="20200515 10:58:58.598" level="INFO">Typing text '20.4' into text field '//input[@type='number']'.</msg>
-<status status="PASS" starttime="20200515 10:58:58.598" endtime="20200515 10:58:58.819"></status>
+<msg timestamp="20200515 13:54:02.747" level="INFO">Typing text '20.4' into text field '//input[@type='number']'.</msg>
+<status status="PASS" starttime="20200515 13:54:02.745" endtime="20200515 13:54:03.007"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2191,8 +2191,8 @@ Without any arguments.</msg>
 <assign>
 <var>${CS}</var>
 </assign>
-<msg timestamp="20200515 10:58:58.854" level="INFO">${CS} = Current Salary Amount</msg>
-<status status="PASS" starttime="20200515 10:58:58.820" endtime="20200515 10:58:58.854"></status>
+<msg timestamp="20200515 13:54:03.047" level="INFO">${CS} = Current Salary Amount</msg>
+<status status="PASS" starttime="20200515 13:54:03.008" endtime="20200515 13:54:03.047"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2202,8 +2202,8 @@ Without any arguments.</msg>
 <assign>
 <var>${CSA}</var>
 </assign>
-<msg timestamp="20200515 10:58:58.885" level="INFO">${CSA} = 5,66,36,781.00</msg>
-<status status="PASS" starttime="20200515 10:58:58.854" endtime="20200515 10:58:58.886"></status>
+<msg timestamp="20200515 13:54:03.135" level="INFO">${CSA} = 5,66,36,781.00</msg>
+<status status="PASS" starttime="20200515 13:54:03.048" endtime="20200515 13:54:03.136"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2213,8 +2213,8 @@ Without any arguments.</msg>
 <assign>
 <var>${RS}</var>
 </assign>
-<msg timestamp="20200515 10:58:58.918" level="INFO">${RS} = Revised Salary Amount</msg>
-<status status="PASS" starttime="20200515 10:58:58.886" endtime="20200515 10:58:58.918"></status>
+<msg timestamp="20200515 13:54:03.196" level="INFO">${RS} = Revised Salary Amount</msg>
+<status status="PASS" starttime="20200515 13:54:03.136" endtime="20200515 13:54:03.196"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2224,8 +2224,8 @@ Without any arguments.</msg>
 <assign>
 <var>${RSA}</var>
 </assign>
-<msg timestamp="20200515 10:58:58.949" level="INFO">${RSA} = 4,50,82,878.00</msg>
-<status status="PASS" starttime="20200515 10:58:58.919" endtime="20200515 10:58:58.949"></status>
+<msg timestamp="20200515 13:54:03.227" level="INFO">${RSA} = 4,50,82,878.00</msg>
+<status status="PASS" starttime="20200515 13:54:03.196" endtime="20200515 13:54:03.227"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2235,8 +2235,8 @@ Without any arguments.</msg>
 <assign>
 <var>${TEC}</var>
 </assign>
-<msg timestamp="20200515 10:58:58.981" level="INFO">${TEC} = Total Employee Count</msg>
-<status status="PASS" starttime="20200515 10:58:58.949" endtime="20200515 10:58:58.981"></status>
+<msg timestamp="20200515 13:54:03.259" level="INFO">${TEC} = Total Employee Count</msg>
+<status status="PASS" starttime="20200515 13:54:03.227" endtime="20200515 13:54:03.259"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2246,8 +2246,8 @@ Without any arguments.</msg>
 <assign>
 <var>${EC}</var>
 </assign>
-<msg timestamp="20200515 10:58:59.014" level="INFO">${EC} = 40</msg>
-<status status="PASS" starttime="20200515 10:58:58.981" endtime="20200515 10:58:59.014"></status>
+<msg timestamp="20200515 13:54:03.290" level="INFO">${EC} = 40</msg>
+<status status="PASS" starttime="20200515 13:54:03.260" endtime="20200515 13:54:03.290"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2257,8 +2257,8 @@ Without any arguments.</msg>
 <assign>
 <var>${G}</var>
 </assign>
-<msg timestamp="20200515 10:58:59.044" level="INFO">${G} = Goal Amount</msg>
-<status status="PASS" starttime="20200515 10:58:59.015" endtime="20200515 10:58:59.044"></status>
+<msg timestamp="20200515 13:54:03.320" level="INFO">${G} = Goal Amount</msg>
+<status status="PASS" starttime="20200515 13:54:03.290" endtime="20200515 13:54:03.320"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2268,54 +2268,54 @@ Without any arguments.</msg>
 <assign>
 <var>${GA}</var>
 </assign>
-<msg timestamp="20200515 10:58:59.079" level="INFO">${GA} = 1,15,53,903.00</msg>
-<status status="PASS" starttime="20200515 10:58:59.045" endtime="20200515 10:58:59.079"></status>
+<msg timestamp="20200515 13:54:03.351" level="INFO">${GA} = 1,15,53,903.00</msg>
+<status status="PASS" starttime="20200515 13:54:03.320" endtime="20200515 13:54:03.351"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:59:01.082" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:58:59.080" endtime="20200515 10:59:01.082"></status>
+<msg timestamp="20200515 13:54:05.354" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:54:03.351" endtime="20200515 13:54:05.354"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${CS} is ${CSA}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:59:01.082" endtime="20200515 10:59:01.082"></status>
+<status status="PASS" starttime="20200515 13:54:05.355" endtime="20200515 13:54:05.357"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${RS} is ${RSA}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:59:01.088" endtime="20200515 10:59:01.089"></status>
+<status status="PASS" starttime="20200515 13:54:05.358" endtime="20200515 13:54:05.359"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${TEC}is ${EC}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:59:01.089" endtime="20200515 10:59:01.089"></status>
+<status status="PASS" starttime="20200515 13:54:05.359" endtime="20200515 13:54:05.361"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${G} is ${GA}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:59:01.089" endtime="20200515 10:59:01.089"></status>
+<status status="PASS" starttime="20200515 13:54:05.361" endtime="20200515 13:54:05.362"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[contains(text(),'Next')]</arg>
 </arguments>
-<msg timestamp="20200515 10:59:01.089" level="INFO">Clicking element '//button[contains(text(),'Next')]'.</msg>
-<status status="PASS" starttime="20200515 10:59:01.089" endtime="20200515 10:59:01.191"></status>
+<msg timestamp="20200515 13:54:05.364" level="INFO">Clicking element '//button[contains(text(),'Next')]'.</msg>
+<status status="PASS" starttime="20200515 13:54:05.363" endtime="20200515 13:54:05.490"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:58:56.583" endtime="20200515 10:59:01.191"></status>
+<status status="PASS" starttime="20200515 13:54:00.741" endtime="20200515 13:54:05.491"></status>
 </kw>
 <kw name="TC_22_Verify the Band Frequency and change the Band Value" library="Salary Cut">
 <kw name="Sleep" library="BuiltIn">
@@ -2323,8 +2323,8 @@ Without any arguments.</msg>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:59:03.191" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:59:01.191" endtime="20200515 10:59:03.191"></status>
+<msg timestamp="20200515 13:54:07.492" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:54:05.492" endtime="20200515 13:54:07.492"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -2332,10 +2332,10 @@ Without any arguments.</msg>
 <arg>//input[@placeholder='Frequency']</arg>
 <arg>40000</arg>
 </arguments>
-<msg timestamp="20200515 10:59:03.191" level="INFO">Typing text '40000' into text field '//input[@placeholder='Frequency']'.</msg>
-<status status="PASS" starttime="20200515 10:59:03.191" endtime="20200515 10:59:03.514"></status>
+<msg timestamp="20200515 13:54:07.495" level="INFO">Typing text '40000' into text field '//input[@placeholder='Frequency']'.</msg>
+<status status="PASS" starttime="20200515 13:54:07.493" endtime="20200515 13:54:07.819"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:59:01.191" endtime="20200515 10:59:03.514"></status>
+<status status="PASS" starttime="20200515 13:54:05.491" endtime="20200515 13:54:07.819"></status>
 </kw>
 <kw name="TC_23_Verify the Goal Summary, Actual Amount and Variations" library="Salary Cut">
 <kw name="Sleep" library="BuiltIn">
@@ -2343,8 +2343,8 @@ Without any arguments.</msg>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:59:05.519" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:59:03.516" endtime="20200515 10:59:05.519"></status>
+<msg timestamp="20200515 13:54:09.822" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:54:07.821" endtime="20200515 13:54:09.822"></status>
 </kw>
 <kw name="Scroll Page To Location" library="Revision Planner Keywords">
 <arguments>
@@ -2356,20 +2356,20 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${x_location},${y_location})</arg>
 </arguments>
-<msg timestamp="20200515 10:59:05.519" level="INFO">Executing JavaScript:
+<msg timestamp="20200515 13:54:09.827" level="INFO">Executing JavaScript:
 window.scrollTo(0,2000)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200515 10:59:05.519" endtime="20200515 10:59:05.570"></status>
+<status status="PASS" starttime="20200515 13:54:09.826" endtime="20200515 13:54:09.882"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:59:05.519" endtime="20200515 10:59:05.570"></status>
+<status status="PASS" starttime="20200515 13:54:09.823" endtime="20200515 13:54:09.883"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:59:07.582" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:59:05.570" endtime="20200515 10:59:07.582"></status>
+<msg timestamp="20200515 13:54:11.884" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:54:09.884" endtime="20200515 13:54:11.884"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2379,8 +2379,8 @@ Without any arguments.</msg>
 <assign>
 <var>${GP}</var>
 </assign>
-<msg timestamp="20200515 10:59:07.629" level="INFO">${GP} = Goal %</msg>
-<status status="PASS" starttime="20200515 10:59:07.582" endtime="20200515 10:59:07.629"></status>
+<msg timestamp="20200515 13:54:11.943" level="INFO">${GP} = Goal %</msg>
+<status status="PASS" starttime="20200515 13:54:11.885" endtime="20200515 13:54:11.943"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2390,8 +2390,8 @@ Without any arguments.</msg>
 <assign>
 <var>${GPV}</var>
 </assign>
-<msg timestamp="20200515 10:59:07.660" level="INFO">${GPV} = 20.40 %</msg>
-<status status="PASS" starttime="20200515 10:59:07.629" endtime="20200515 10:59:07.660"></status>
+<msg timestamp="20200515 13:54:11.974" level="INFO">${GPV} = 20.40 %</msg>
+<status status="PASS" starttime="20200515 13:54:11.944" endtime="20200515 13:54:11.974"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2401,8 +2401,8 @@ Without any arguments.</msg>
 <assign>
 <var>${GA}</var>
 </assign>
-<msg timestamp="20200515 10:59:07.691" level="INFO">${GA} = Goal amount</msg>
-<status status="PASS" starttime="20200515 10:59:07.660" endtime="20200515 10:59:07.691"></status>
+<msg timestamp="20200515 13:54:12.003" level="INFO">${GA} = Goal amount</msg>
+<status status="PASS" starttime="20200515 13:54:11.974" endtime="20200515 13:54:12.004"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2412,8 +2412,8 @@ Without any arguments.</msg>
 <assign>
 <var>${GAV}</var>
 </assign>
-<msg timestamp="20200515 10:59:07.713" level="INFO">${GAV} = Goal amount</msg>
-<status status="PASS" starttime="20200515 10:59:07.691" endtime="20200515 10:59:07.713"></status>
+<msg timestamp="20200515 13:54:12.023" level="INFO">${GAV} = Goal amount</msg>
+<status status="PASS" starttime="20200515 13:54:12.004" endtime="20200515 13:54:12.023"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2423,8 +2423,8 @@ Without any arguments.</msg>
 <assign>
 <var>${AP}</var>
 </assign>
-<msg timestamp="20200515 10:59:07.754" level="INFO">${AP} = Actual %</msg>
-<status status="PASS" starttime="20200515 10:59:07.713" endtime="20200515 10:59:07.754"></status>
+<msg timestamp="20200515 13:54:12.054" level="INFO">${AP} = Actual %</msg>
+<status status="PASS" starttime="20200515 13:54:12.023" endtime="20200515 13:54:12.054"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2434,8 +2434,8 @@ Without any arguments.</msg>
 <assign>
 <var>${APV}</var>
 </assign>
-<msg timestamp="20200515 10:59:07.772" level="INFO">${APV} = 20.40 %</msg>
-<status status="PASS" starttime="20200515 10:59:07.754" endtime="20200515 10:59:07.772"></status>
+<msg timestamp="20200515 13:54:12.096" level="INFO">${APV} = 20.40 %</msg>
+<status status="PASS" starttime="20200515 13:54:12.054" endtime="20200515 13:54:12.096"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2445,8 +2445,8 @@ Without any arguments.</msg>
 <assign>
 <var>${AM}</var>
 </assign>
-<msg timestamp="20200515 10:59:07.819" level="INFO">${AM} = Actual amount</msg>
-<status status="PASS" starttime="20200515 10:59:07.772" endtime="20200515 10:59:07.819"></status>
+<msg timestamp="20200515 13:54:12.127" level="INFO">${AM} = Actual amount</msg>
+<status status="PASS" starttime="20200515 13:54:12.097" endtime="20200515 13:54:12.127"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2456,8 +2456,8 @@ Without any arguments.</msg>
 <assign>
 <var>${AMV}</var>
 </assign>
-<msg timestamp="20200515 10:59:07.850" level="INFO">${AMV} = 1,15,53,903.00</msg>
-<status status="PASS" starttime="20200515 10:59:07.819" endtime="20200515 10:59:07.850"></status>
+<msg timestamp="20200515 13:54:12.158" level="INFO">${AMV} = 1,15,53,903.00</msg>
+<status status="PASS" starttime="20200515 13:54:12.127" endtime="20200515 13:54:12.158"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2467,8 +2467,8 @@ Without any arguments.</msg>
 <assign>
 <var>${VP}</var>
 </assign>
-<msg timestamp="20200515 10:59:07.879" level="INFO">${VP} = Variation %</msg>
-<status status="PASS" starttime="20200515 10:59:07.851" endtime="20200515 10:59:07.879"></status>
+<msg timestamp="20200515 13:54:12.188" level="INFO">${VP} = Variation %</msg>
+<status status="PASS" starttime="20200515 13:54:12.158" endtime="20200515 13:54:12.188"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2478,8 +2478,8 @@ Without any arguments.</msg>
 <assign>
 <var>${VPV}</var>
 </assign>
-<msg timestamp="20200515 10:59:07.910" level="INFO">${VPV} = 0.00 %</msg>
-<status status="PASS" starttime="20200515 10:59:07.879" endtime="20200515 10:59:07.910"></status>
+<msg timestamp="20200515 13:54:12.220" level="INFO">${VPV} = 0.00 %</msg>
+<status status="PASS" starttime="20200515 13:54:12.188" endtime="20200515 13:54:12.220"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2489,8 +2489,8 @@ Without any arguments.</msg>
 <assign>
 <var>${VM}</var>
 </assign>
-<msg timestamp="20200515 10:59:07.941" level="INFO">${VM} = Variation amount</msg>
-<status status="PASS" starttime="20200515 10:59:07.910" endtime="20200515 10:59:07.941"></status>
+<msg timestamp="20200515 13:54:12.250" level="INFO">${VM} = Variation amount</msg>
+<status status="PASS" starttime="20200515 13:54:12.221" endtime="20200515 13:54:12.250"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2500,60 +2500,60 @@ Without any arguments.</msg>
 <assign>
 <var>${VMV}</var>
 </assign>
-<msg timestamp="20200515 10:59:07.972" level="INFO">${VMV} = 0.00</msg>
-<status status="PASS" starttime="20200515 10:59:07.941" endtime="20200515 10:59:07.972"></status>
+<msg timestamp="20200515 13:54:12.283" level="INFO">${VMV} = 0.00</msg>
+<status status="PASS" starttime="20200515 13:54:12.251" endtime="20200515 13:54:12.283"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:59:09.974" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:59:07.972" endtime="20200515 10:59:09.974"></status>
+<msg timestamp="20200515 13:54:14.286" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:54:12.284" endtime="20200515 13:54:14.286"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${GP} is ${GPV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:59:09.974" endtime="20200515 10:59:09.974"></status>
+<status status="PASS" starttime="20200515 13:54:14.287" endtime="20200515 13:54:14.289"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${GA} is ${GAV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:59:09.977" endtime="20200515 10:59:09.978"></status>
+<status status="PASS" starttime="20200515 13:54:14.290" endtime="20200515 13:54:14.291"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${AP} is ${APV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:59:09.978" endtime="20200515 10:59:09.978"></status>
+<status status="PASS" starttime="20200515 13:54:14.292" endtime="20200515 13:54:14.294"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${AM} is ${AMV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:59:09.978" endtime="20200515 10:59:09.978"></status>
+<status status="PASS" starttime="20200515 13:54:14.294" endtime="20200515 13:54:14.295"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${VP} is ${VPV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:59:09.978" endtime="20200515 10:59:09.978"></status>
+<status status="PASS" starttime="20200515 13:54:14.296" endtime="20200515 13:54:14.297"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${VM} is ${VMV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:59:09.978" endtime="20200515 10:59:09.978"></status>
+<status status="PASS" starttime="20200515 13:54:14.298" endtime="20200515 13:54:14.299"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:59:03.515" endtime="20200515 10:59:09.978"></status>
+<status status="PASS" starttime="20200515 13:54:07.820" endtime="20200515 13:54:14.300"></status>
 </kw>
 <kw name="TC_24_Complete the Setup Analysis" library="Salary Cut">
 <kw name="Sleep" library="BuiltIn">
@@ -2561,50 +2561,50 @@ Without any arguments.</msg>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:59:11.989" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:59:09.988" endtime="20200515 10:59:11.991"></status>
+<msg timestamp="20200515 13:54:16.302" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:54:14.302" endtime="20200515 13:54:16.303"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[contains(text(),'Finish')]</arg>
 </arguments>
-<msg timestamp="20200515 10:59:11.994" level="INFO">Clicking element '//button[contains(text(),'Finish')]'.</msg>
-<status status="PASS" starttime="20200515 10:59:11.992" endtime="20200515 10:59:12.193"></status>
+<msg timestamp="20200515 13:54:16.313" level="INFO">Clicking element '//button[contains(text(),'Finish')]'.</msg>
+<status status="PASS" starttime="20200515 13:54:16.310" endtime="20200515 13:54:16.490"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[contains(text(),'Export Excel')]</arg>
 </arguments>
-<msg timestamp="20200515 10:59:12.193" level="INFO">Clicking element '//button[contains(text(),'Export Excel')]'.</msg>
-<status status="PASS" starttime="20200515 10:59:12.193" endtime="20200515 10:59:13.503"></status>
+<msg timestamp="20200515 13:54:16.492" level="INFO">Clicking element '//button[contains(text(),'Export Excel')]'.</msg>
+<status status="PASS" starttime="20200515 13:54:16.491" endtime="20200515 13:54:18.266"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:59:15.506" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:59:13.503" endtime="20200515 10:59:15.506"></status>
+<msg timestamp="20200515 13:54:20.268" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:54:18.267" endtime="20200515 13:54:20.268"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[@class='btn summary-btn-close ng-scope']</arg>
 </arguments>
-<msg timestamp="20200515 10:59:15.508" level="INFO">Clicking element '//button[@class='btn summary-btn-close ng-scope']'.</msg>
-<status status="PASS" starttime="20200515 10:59:15.506" endtime="20200515 10:59:15.769"></status>
+<msg timestamp="20200515 13:54:20.270" level="INFO">Clicking element '//button[@class='btn summary-btn-close ng-scope']'.</msg>
+<status status="PASS" starttime="20200515 13:54:20.269" endtime="20200515 13:54:20.471"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:59:17.785" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:59:15.770" endtime="20200515 10:59:17.785"></status>
+<msg timestamp="20200515 13:54:22.473" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:54:20.472" endtime="20200515 13:54:22.473"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:59:09.988" endtime="20200515 10:59:17.785"></status>
+<status status="PASS" starttime="20200515 13:54:14.300" endtime="20200515 13:54:22.474"></status>
 </kw>
 <kw name="TC_25_Edit the Analysis and change the CTC Salary Item, Goal% and Download the excel file" library="Salary Cut">
 <kw name="Sleep" library="BuiltIn">
@@ -2612,48 +2612,48 @@ Without any arguments.</msg>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:59:19.785" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:59:17.785" endtime="20200515 10:59:19.785"></status>
+<msg timestamp="20200515 13:54:24.478" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:54:22.477" endtime="20200515 13:54:24.478"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//span[3]//div[1]//table[1]//tbody[1]//tr[1]//td[1]//div[1]//span[2]//i[1]</arg>
 </arguments>
-<msg timestamp="20200515 10:59:19.785" level="INFO">Clicking element '//span[3]//div[1]//table[1]//tbody[1]//tr[1]//td[1]//div[1]//span[2]//i[1]'.</msg>
-<status status="PASS" starttime="20200515 10:59:19.785" endtime="20200515 10:59:19.938"></status>
+<msg timestamp="20200515 13:54:24.479" level="INFO">Clicking element '//span[3]//div[1]//table[1]//tbody[1]//tr[1]//td[1]//div[1]//span[2]//i[1]'.</msg>
+<status status="PASS" starttime="20200515 13:54:24.479" endtime="20200515 13:54:24.588"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:59:21.941" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:59:19.938" endtime="20200515 10:59:21.941"></status>
+<msg timestamp="20200515 13:54:26.589" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:54:24.588" endtime="20200515 13:54:26.590"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//div[@class='main-content']//div[2]//div[1]//div[1]//a[1]//div[1]//b[1]</arg>
 </arguments>
-<msg timestamp="20200515 10:59:21.941" level="INFO">Clicking element '//div[@class='main-content']//div[2]//div[1]//div[1]//a[1]//div[1]//b[1]'.</msg>
-<status status="PASS" starttime="20200515 10:59:21.941" endtime="20200515 10:59:22.256"></status>
+<msg timestamp="20200515 13:54:26.592" level="INFO">Clicking element '//div[@class='main-content']//div[2]//div[1]//div[1]//a[1]//div[1]//b[1]'.</msg>
+<status status="PASS" starttime="20200515 13:54:26.590" endtime="20200515 13:54:26.899"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//div[contains(text(),'ANNUAL_CTC')]</arg>
 </arguments>
-<msg timestamp="20200515 10:59:22.257" level="INFO">Clicking element '//div[contains(text(),'ANNUAL_CTC')]'.</msg>
-<status status="PASS" starttime="20200515 10:59:22.256" endtime="20200515 10:59:22.431"></status>
+<msg timestamp="20200515 13:54:26.900" level="INFO">Clicking element '//div[contains(text(),'ANNUAL_CTC')]'.</msg>
+<status status="PASS" starttime="20200515 13:54:26.899" endtime="20200515 13:54:27.142"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:59:24.441" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:59:22.432" endtime="20200515 10:59:24.441"></status>
+<msg timestamp="20200515 13:54:29.143" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:54:27.142" endtime="20200515 13:54:29.144"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -2661,8 +2661,8 @@ Without any arguments.</msg>
 <arg>//input[@type='number']</arg>
 <arg>20.2</arg>
 </arguments>
-<msg timestamp="20200515 10:59:24.441" level="INFO">Typing text '20.2' into text field '//input[@type='number']'.</msg>
-<status status="PASS" starttime="20200515 10:59:24.441" endtime="20200515 10:59:24.713"></status>
+<msg timestamp="20200515 13:54:29.147" level="INFO">Typing text '20.2' into text field '//input[@type='number']'.</msg>
+<status status="PASS" starttime="20200515 13:54:29.145" endtime="20200515 13:54:29.426"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2672,8 +2672,8 @@ Without any arguments.</msg>
 <assign>
 <var>${CS}</var>
 </assign>
-<msg timestamp="20200515 10:59:24.749" level="INFO">${CS} = Current Salary Amount</msg>
-<status status="PASS" starttime="20200515 10:59:24.713" endtime="20200515 10:59:24.749"></status>
+<msg timestamp="20200515 13:54:29.463" level="INFO">${CS} = Current Salary Amount</msg>
+<status status="PASS" starttime="20200515 13:54:29.426" endtime="20200515 13:54:29.463"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2683,8 +2683,8 @@ Without any arguments.</msg>
 <assign>
 <var>${CSA}</var>
 </assign>
-<msg timestamp="20200515 10:59:24.783" level="INFO">${CSA} = 5,66,36,781.00</msg>
-<status status="PASS" starttime="20200515 10:59:24.749" endtime="20200515 10:59:24.783"></status>
+<msg timestamp="20200515 13:54:29.498" level="INFO">${CSA} = 5,66,36,781.00</msg>
+<status status="PASS" starttime="20200515 13:54:29.464" endtime="20200515 13:54:29.498"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2694,8 +2694,8 @@ Without any arguments.</msg>
 <assign>
 <var>${RS}</var>
 </assign>
-<msg timestamp="20200515 10:59:24.818" level="INFO">${RS} = Revised Salary Amount</msg>
-<status status="PASS" starttime="20200515 10:59:24.784" endtime="20200515 10:59:24.818"></status>
+<msg timestamp="20200515 13:54:29.532" level="INFO">${RS} = Revised Salary Amount</msg>
+<status status="PASS" starttime="20200515 13:54:29.498" endtime="20200515 13:54:29.532"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2705,8 +2705,8 @@ Without any arguments.</msg>
 <assign>
 <var>${RSA}</var>
 </assign>
-<msg timestamp="20200515 10:59:24.853" level="INFO">${RSA} = 4,51,96,151.00</msg>
-<status status="PASS" starttime="20200515 10:59:24.818" endtime="20200515 10:59:24.854"></status>
+<msg timestamp="20200515 13:54:29.565" level="INFO">${RSA} = 4,51,96,151.00</msg>
+<status status="PASS" starttime="20200515 13:54:29.532" endtime="20200515 13:54:29.566"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2716,8 +2716,8 @@ Without any arguments.</msg>
 <assign>
 <var>${TEC}</var>
 </assign>
-<msg timestamp="20200515 10:59:24.888" level="INFO">${TEC} = Total Employee Count</msg>
-<status status="PASS" starttime="20200515 10:59:24.854" endtime="20200515 10:59:24.888"></status>
+<msg timestamp="20200515 13:54:29.599" level="INFO">${TEC} = Total Employee Count</msg>
+<status status="PASS" starttime="20200515 13:54:29.566" endtime="20200515 13:54:29.599"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2727,8 +2727,8 @@ Without any arguments.</msg>
 <assign>
 <var>${EC}</var>
 </assign>
-<msg timestamp="20200515 10:59:24.924" level="INFO">${EC} = 40</msg>
-<status status="PASS" starttime="20200515 10:59:24.888" endtime="20200515 10:59:24.924"></status>
+<msg timestamp="20200515 13:54:29.633" level="INFO">${EC} = 40</msg>
+<status status="PASS" starttime="20200515 13:54:29.599" endtime="20200515 13:54:29.633"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2738,8 +2738,8 @@ Without any arguments.</msg>
 <assign>
 <var>${G}</var>
 </assign>
-<msg timestamp="20200515 10:59:24.961" level="INFO">${G} = Goal Amount</msg>
-<status status="PASS" starttime="20200515 10:59:24.925" endtime="20200515 10:59:24.961"></status>
+<msg timestamp="20200515 13:54:29.670" level="INFO">${G} = Goal Amount</msg>
+<status status="PASS" starttime="20200515 13:54:29.633" endtime="20200515 13:54:29.670"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2749,60 +2749,60 @@ Without any arguments.</msg>
 <assign>
 <var>${GA}</var>
 </assign>
-<msg timestamp="20200515 10:59:24.994" level="INFO">${GA} = 1,14,40,630.00</msg>
-<status status="PASS" starttime="20200515 10:59:24.961" endtime="20200515 10:59:24.994"></status>
+<msg timestamp="20200515 13:54:29.704" level="INFO">${GA} = 1,14,40,630.00</msg>
+<status status="PASS" starttime="20200515 13:54:29.671" endtime="20200515 13:54:29.704"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:59:27.004" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:59:24.995" endtime="20200515 10:59:27.004"></status>
+<msg timestamp="20200515 13:54:31.705" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:54:29.705" endtime="20200515 13:54:31.705"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${CS} is ${CSA}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:59:27.004" endtime="20200515 10:59:27.004"></status>
+<status status="PASS" starttime="20200515 13:54:31.706" endtime="20200515 13:54:31.709"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${RS} is ${RSA}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:59:27.010" endtime="20200515 10:59:27.011"></status>
+<status status="PASS" starttime="20200515 13:54:31.710" endtime="20200515 13:54:31.711"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${TEC}is ${EC}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:59:27.011" endtime="20200515 10:59:27.011"></status>
+<status status="PASS" starttime="20200515 13:54:31.712" endtime="20200515 13:54:31.713"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${G} is ${GA}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:59:27.011" endtime="20200515 10:59:27.011"></status>
+<status status="PASS" starttime="20200515 13:54:31.714" endtime="20200515 13:54:31.715"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[contains(text(),'Next')]</arg>
 </arguments>
-<msg timestamp="20200515 10:59:27.011" level="INFO">Clicking element '//button[contains(text(),'Next')]'.</msg>
-<status status="PASS" starttime="20200515 10:59:27.011" endtime="20200515 10:59:27.120"></status>
+<msg timestamp="20200515 13:54:31.717" level="INFO">Clicking element '//button[contains(text(),'Next')]'.</msg>
+<status status="PASS" starttime="20200515 13:54:31.716" endtime="20200515 13:54:31.855"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:59:29.129" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:59:27.120" endtime="20200515 10:59:29.129"></status>
+<msg timestamp="20200515 13:54:33.856" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:54:31.856" endtime="20200515 13:54:33.857"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
@@ -2810,16 +2810,16 @@ Without any arguments.</msg>
 <arg>//input[@placeholder='Frequency']</arg>
 <arg>70000</arg>
 </arguments>
-<msg timestamp="20200515 10:59:29.129" level="INFO">Typing text '70000' into text field '//input[@placeholder='Frequency']'.</msg>
-<status status="PASS" starttime="20200515 10:59:29.129" endtime="20200515 10:59:29.442"></status>
+<msg timestamp="20200515 13:54:33.860" level="INFO">Typing text '70000' into text field '//input[@placeholder='Frequency']'.</msg>
+<status status="PASS" starttime="20200515 13:54:33.857" endtime="20200515 13:54:34.199"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:59:31.457" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:59:29.443" endtime="20200515 10:59:31.457"></status>
+<msg timestamp="20200515 13:54:36.203" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:54:34.200" endtime="20200515 13:54:36.203"></status>
 </kw>
 <kw name="Scroll Page To Location" library="Revision Planner Keywords">
 <arguments>
@@ -2831,20 +2831,20 @@ Without any arguments.</msg>
 <arguments>
 <arg>window.scrollTo(${x_location},${y_location})</arg>
 </arguments>
-<msg timestamp="20200515 10:59:31.457" level="INFO">Executing JavaScript:
+<msg timestamp="20200515 13:54:36.208" level="INFO">Executing JavaScript:
 window.scrollTo(0,2000)
 Without any arguments.</msg>
-<status status="PASS" starttime="20200515 10:59:31.457" endtime="20200515 10:59:31.495"></status>
+<status status="PASS" starttime="20200515 13:54:36.207" endtime="20200515 13:54:36.256"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:59:31.457" endtime="20200515 10:59:31.495"></status>
+<status status="PASS" starttime="20200515 13:54:36.204" endtime="20200515 13:54:36.257"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:59:33.504" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:59:31.495" endtime="20200515 10:59:33.504"></status>
+<msg timestamp="20200515 13:54:38.259" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:54:36.257" endtime="20200515 13:54:38.259"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2854,8 +2854,8 @@ Without any arguments.</msg>
 <assign>
 <var>${GP}</var>
 </assign>
-<msg timestamp="20200515 10:59:33.551" level="INFO">${GP} = Goal %</msg>
-<status status="PASS" starttime="20200515 10:59:33.504" endtime="20200515 10:59:33.551"></status>
+<msg timestamp="20200515 13:54:38.326" level="INFO">${GP} = Goal %</msg>
+<status status="PASS" starttime="20200515 13:54:38.260" endtime="20200515 13:54:38.326"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2865,8 +2865,8 @@ Without any arguments.</msg>
 <assign>
 <var>${GPV}</var>
 </assign>
-<msg timestamp="20200515 10:59:33.582" level="INFO">${GPV} = 20.20 %</msg>
-<status status="PASS" starttime="20200515 10:59:33.551" endtime="20200515 10:59:33.582"></status>
+<msg timestamp="20200515 13:54:38.356" level="INFO">${GPV} = 20.20 %</msg>
+<status status="PASS" starttime="20200515 13:54:38.326" endtime="20200515 13:54:38.357"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2876,8 +2876,8 @@ Without any arguments.</msg>
 <assign>
 <var>${GA}</var>
 </assign>
-<msg timestamp="20200515 10:59:33.613" level="INFO">${GA} = Goal amount</msg>
-<status status="PASS" starttime="20200515 10:59:33.582" endtime="20200515 10:59:33.613"></status>
+<msg timestamp="20200515 13:54:38.386" level="INFO">${GA} = Goal amount</msg>
+<status status="PASS" starttime="20200515 13:54:38.357" endtime="20200515 13:54:38.386"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2887,8 +2887,8 @@ Without any arguments.</msg>
 <assign>
 <var>${GAV}</var>
 </assign>
-<msg timestamp="20200515 10:59:33.629" level="INFO">${GAV} = Goal amount</msg>
-<status status="PASS" starttime="20200515 10:59:33.613" endtime="20200515 10:59:33.629"></status>
+<msg timestamp="20200515 13:54:38.408" level="INFO">${GAV} = Goal amount</msg>
+<status status="PASS" starttime="20200515 13:54:38.387" endtime="20200515 13:54:38.408"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2898,8 +2898,8 @@ Without any arguments.</msg>
 <assign>
 <var>${AP}</var>
 </assign>
-<msg timestamp="20200515 10:59:33.660" level="INFO">${AP} = Actual %</msg>
-<status status="PASS" starttime="20200515 10:59:33.644" endtime="20200515 10:59:33.660"></status>
+<msg timestamp="20200515 13:54:38.443" level="INFO">${AP} = Actual %</msg>
+<status status="PASS" starttime="20200515 13:54:38.409" endtime="20200515 13:54:38.443"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2909,8 +2909,8 @@ Without any arguments.</msg>
 <assign>
 <var>${APV}</var>
 </assign>
-<msg timestamp="20200515 10:59:33.707" level="INFO">${APV} = 20.20 %</msg>
-<status status="PASS" starttime="20200515 10:59:33.660" endtime="20200515 10:59:33.707"></status>
+<msg timestamp="20200515 13:54:38.477" level="INFO">${APV} = 20.20 %</msg>
+<status status="PASS" starttime="20200515 13:54:38.443" endtime="20200515 13:54:38.477"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2920,8 +2920,8 @@ Without any arguments.</msg>
 <assign>
 <var>${AM}</var>
 </assign>
-<msg timestamp="20200515 10:59:33.724" level="INFO">${AM} = Actual amount</msg>
-<status status="PASS" starttime="20200515 10:59:33.707" endtime="20200515 10:59:33.724"></status>
+<msg timestamp="20200515 13:54:38.507" level="INFO">${AM} = Actual amount</msg>
+<status status="PASS" starttime="20200515 13:54:38.477" endtime="20200515 13:54:38.508"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2931,8 +2931,8 @@ Without any arguments.</msg>
 <assign>
 <var>${AMV}</var>
 </assign>
-<msg timestamp="20200515 10:59:33.769" level="INFO">${AMV} = 1,14,40,630.00</msg>
-<status status="PASS" starttime="20200515 10:59:33.738" endtime="20200515 10:59:33.769"></status>
+<msg timestamp="20200515 13:54:38.539" level="INFO">${AMV} = 1,14,40,630.00</msg>
+<status status="PASS" starttime="20200515 13:54:38.508" endtime="20200515 13:54:38.539"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2942,8 +2942,8 @@ Without any arguments.</msg>
 <assign>
 <var>${VP}</var>
 </assign>
-<msg timestamp="20200515 10:59:33.785" level="INFO">${VP} = Variation %</msg>
-<status status="PASS" starttime="20200515 10:59:33.769" endtime="20200515 10:59:33.785"></status>
+<msg timestamp="20200515 13:54:38.570" level="INFO">${VP} = Variation %</msg>
+<status status="PASS" starttime="20200515 13:54:38.540" endtime="20200515 13:54:38.570"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2953,8 +2953,8 @@ Without any arguments.</msg>
 <assign>
 <var>${VPV}</var>
 </assign>
-<msg timestamp="20200515 10:59:33.832" level="INFO">${VPV} = 0.00 %</msg>
-<status status="PASS" starttime="20200515 10:59:33.785" endtime="20200515 10:59:33.832"></status>
+<msg timestamp="20200515 13:54:38.603" level="INFO">${VPV} = 0.00 %</msg>
+<status status="PASS" starttime="20200515 13:54:38.571" endtime="20200515 13:54:38.603"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2964,8 +2964,8 @@ Without any arguments.</msg>
 <assign>
 <var>${VM}</var>
 </assign>
-<msg timestamp="20200515 10:59:33.847" level="INFO">${VM} = Variation amount</msg>
-<status status="PASS" starttime="20200515 10:59:33.832" endtime="20200515 10:59:33.847"></status>
+<msg timestamp="20200515 13:54:38.633" level="INFO">${VM} = Variation amount</msg>
+<status status="PASS" starttime="20200515 13:54:38.604" endtime="20200515 13:54:38.633"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of the element identified by ``locator``.</doc>
@@ -2975,126 +2975,126 @@ Without any arguments.</msg>
 <assign>
 <var>${VMV}</var>
 </assign>
-<msg timestamp="20200515 10:59:33.894" level="INFO">${VMV} = 0.00</msg>
-<status status="PASS" starttime="20200515 10:59:33.863" endtime="20200515 10:59:33.894"></status>
+<msg timestamp="20200515 13:54:38.666" level="INFO">${VMV} = 0.00</msg>
+<status status="PASS" starttime="20200515 13:54:38.634" endtime="20200515 13:54:38.666"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:59:35.910" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:59:33.894" endtime="20200515 10:59:35.910"></status>
+<msg timestamp="20200515 13:54:40.667" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:54:38.666" endtime="20200515 13:54:40.667"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${GP} is ${GPV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:59:35.910" endtime="20200515 10:59:35.910"></status>
+<status status="PASS" starttime="20200515 13:54:40.668" endtime="20200515 13:54:40.670"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${GA} is ${GAV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:59:35.914" endtime="20200515 10:59:35.915"></status>
+<status status="PASS" starttime="20200515 13:54:40.671" endtime="20200515 13:54:40.672"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${AP} is ${APV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:59:35.915" endtime="20200515 10:59:35.915"></status>
+<status status="PASS" starttime="20200515 13:54:40.672" endtime="20200515 13:54:40.674"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${AM} is ${AMV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:59:35.915" endtime="20200515 10:59:35.915"></status>
+<status status="PASS" starttime="20200515 13:54:40.674" endtime="20200515 13:54:40.675"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${VP} is ${VPV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:59:35.915" endtime="20200515 10:59:35.915"></status>
+<status status="PASS" starttime="20200515 13:54:40.676" endtime="20200515 13:54:40.677"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>${VM} is ${VMV}</arg>
 </arguments>
-<status status="PASS" starttime="20200515 10:59:35.915" endtime="20200515 10:59:35.915"></status>
+<status status="PASS" starttime="20200515 13:54:40.678" endtime="20200515 13:54:40.679"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:59:37.926" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:59:35.915" endtime="20200515 10:59:37.926"></status>
+<msg timestamp="20200515 13:54:42.682" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:54:40.680" endtime="20200515 13:54:42.683"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[contains(text(),'Finish')]</arg>
 </arguments>
-<msg timestamp="20200515 10:59:37.940" level="INFO">Clicking element '//button[contains(text(),'Finish')]'.</msg>
-<status status="PASS" starttime="20200515 10:59:37.937" endtime="20200515 10:59:38.208"></status>
+<msg timestamp="20200515 13:54:42.685" level="INFO">Clicking element '//button[contains(text(),'Finish')]'.</msg>
+<status status="PASS" starttime="20200515 13:54:42.684" endtime="20200515 13:54:42.941"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[contains(text(),'Export Excel')]</arg>
 </arguments>
-<msg timestamp="20200515 10:59:38.208" level="INFO">Clicking element '//button[contains(text(),'Export Excel')]'.</msg>
-<status status="PASS" starttime="20200515 10:59:38.208" endtime="20200515 10:59:39.887"></status>
+<msg timestamp="20200515 13:54:42.942" level="INFO">Clicking element '//button[contains(text(),'Export Excel')]'.</msg>
+<status status="PASS" starttime="20200515 13:54:42.942" endtime="20200515 13:54:44.203"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>5s</arg>
 </arguments>
-<msg timestamp="20200515 10:59:44.895" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20200515 10:59:39.887" endtime="20200515 10:59:44.895"></status>
+<msg timestamp="20200515 13:54:49.204" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200515 13:54:44.203" endtime="20200515 13:54:49.204"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[@class='btn summary-btn-close ng-scope']</arg>
 </arguments>
-<msg timestamp="20200515 10:59:44.895" level="INFO">Clicking element '//button[@class='btn summary-btn-close ng-scope']'.</msg>
-<status status="PASS" starttime="20200515 10:59:44.895" endtime="20200515 10:59:45.179"></status>
+<msg timestamp="20200515 13:54:49.207" level="INFO">Clicking element '//button[@class='btn summary-btn-close ng-scope']'.</msg>
+<status status="PASS" starttime="20200515 13:54:49.205" endtime="20200515 13:54:49.388"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:59:47.191" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:59:45.179" endtime="20200515 10:59:47.191"></status>
+<msg timestamp="20200515 13:54:51.390" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:54:49.389" endtime="20200515 13:54:51.390"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//span[3]//div[1]//table[1]//tbody[1]//tr[1]//td[1]//div[1]//span[2]//i[2]</arg>
 </arguments>
-<msg timestamp="20200515 10:59:47.191" level="INFO">Clicking element '//span[3]//div[1]//table[1]//tbody[1]//tr[1]//td[1]//div[1]//span[2]//i[2]'.</msg>
-<status status="PASS" starttime="20200515 10:59:47.191" endtime="20200515 10:59:47.285"></status>
+<msg timestamp="20200515 13:54:51.392" level="INFO">Clicking element '//span[3]//div[1]//table[1]//tbody[1]//tr[1]//td[1]//div[1]//span[2]//i[2]'.</msg>
+<status status="PASS" starttime="20200515 13:54:51.391" endtime="20200515 13:54:51.564"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:59:49.288" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:59:47.285" endtime="20200515 10:59:49.288"></status>
+<msg timestamp="20200515 13:54:53.566" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:54:51.565" endtime="20200515 13:54:53.566"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:59:17.785" endtime="20200515 10:59:49.288"></status>
+<status status="PASS" starttime="20200515 13:54:22.475" endtime="20200515 13:54:53.566"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:58:49.623" endtime="20200515 10:59:49.288" critical="yes"></status>
+<status status="PASS" starttime="20200515 13:53:53.878" endtime="20200515 13:54:53.566" critical="yes"></status>
 </test>
 <test id="s1-s1-s1-s1-s1-t5" name="Logout from the greytHR Application and close the browser">
 <kw name="TC_26_Delete all the Analysis" library="Logout">
@@ -3103,82 +3103,82 @@ Without any arguments.</msg>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 10:59:51.301" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 10:59:49.294" endtime="20200515 10:59:51.301"></status>
+<msg timestamp="20200515 13:54:55.571" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:54:53.570" endtime="20200515 13:54:55.571"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//span[1]//div[1]//table[1]//tbody[1]//tr[1]//td[1]//div[1]//span[2]//i[3]</arg>
 </arguments>
-<msg timestamp="20200515 10:59:51.301" level="INFO">Clicking element '//span[1]//div[1]//table[1]//tbody[1]//tr[1]//td[1]//div[1]//span[2]//i[3]'.</msg>
-<status status="PASS" starttime="20200515 10:59:51.301" endtime="20200515 10:59:51.554"></status>
+<msg timestamp="20200515 13:54:55.575" level="INFO">Clicking element '//span[1]//div[1]//table[1]//tbody[1]//tr[1]//td[1]//div[1]//span[2]//i[3]'.</msg>
+<status status="PASS" starttime="20200515 13:54:55.572" endtime="20200515 13:54:55.707"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[contains(text(),'Confirm')]</arg>
 </arguments>
-<msg timestamp="20200515 10:59:51.555" level="INFO">Clicking element '//button[contains(text(),'Confirm')]'.</msg>
-<status status="PASS" starttime="20200515 10:59:51.554" endtime="20200515 10:59:51.635"></status>
+<msg timestamp="20200515 13:54:55.708" level="INFO">Clicking element '//button[contains(text(),'Confirm')]'.</msg>
+<status status="PASS" starttime="20200515 13:54:55.708" endtime="20200515 13:54:55.816"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>8s</arg>
 </arguments>
-<msg timestamp="20200515 10:59:59.660" level="INFO">Slept 8 seconds</msg>
-<status status="PASS" starttime="20200515 10:59:51.635" endtime="20200515 10:59:59.660"></status>
+<msg timestamp="20200515 13:55:03.818" level="INFO">Slept 8 seconds</msg>
+<status status="PASS" starttime="20200515 13:54:55.816" endtime="20200515 13:55:03.819"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//span[2]//div[1]//table[1]//tbody[1]//tr[1]//td[1]//div[1]//span[2]//i[3]</arg>
 </arguments>
-<msg timestamp="20200515 10:59:59.660" level="INFO">Clicking element '//span[2]//div[1]//table[1]//tbody[1]//tr[1]//td[1]//div[1]//span[2]//i[3]'.</msg>
-<status status="PASS" starttime="20200515 10:59:59.660" endtime="20200515 10:59:59.842"></status>
+<msg timestamp="20200515 13:55:03.824" level="INFO">Clicking element '//span[2]//div[1]//table[1]//tbody[1]//tr[1]//td[1]//div[1]//span[2]//i[3]'.</msg>
+<status status="PASS" starttime="20200515 13:55:03.819" endtime="20200515 13:55:04.043"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[contains(text(),'Confirm')]</arg>
 </arguments>
-<msg timestamp="20200515 10:59:59.843" level="INFO">Clicking element '//button[contains(text(),'Confirm')]'.</msg>
-<status status="PASS" starttime="20200515 10:59:59.842" endtime="20200515 10:59:59.906"></status>
+<msg timestamp="20200515 13:55:04.044" level="INFO">Clicking element '//button[contains(text(),'Confirm')]'.</msg>
+<status status="PASS" starttime="20200515 13:55:04.044" endtime="20200515 13:55:04.101"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>8s</arg>
 </arguments>
-<msg timestamp="20200515 11:00:07.910" level="INFO">Slept 8 seconds</msg>
-<status status="PASS" starttime="20200515 10:59:59.907" endtime="20200515 11:00:07.910"></status>
+<msg timestamp="20200515 13:55:12.109" level="INFO">Slept 8 seconds</msg>
+<status status="PASS" starttime="20200515 13:55:04.101" endtime="20200515 13:55:12.110"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//i[@class='icon-trash']</arg>
 </arguments>
-<msg timestamp="20200515 11:00:07.910" level="INFO">Clicking element '//i[@class='icon-trash']'.</msg>
-<status status="PASS" starttime="20200515 11:00:07.910" endtime="20200515 11:00:08.005"></status>
+<msg timestamp="20200515 13:55:12.111" level="INFO">Clicking element '//i[@class='icon-trash']'.</msg>
+<status status="PASS" starttime="20200515 13:55:12.110" endtime="20200515 13:55:12.332"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//button[contains(text(),'Confirm')]</arg>
 </arguments>
-<msg timestamp="20200515 11:00:08.019" level="INFO">Clicking element '//button[contains(text(),'Confirm')]'.</msg>
-<status status="PASS" starttime="20200515 11:00:08.005" endtime="20200515 11:00:08.090"></status>
+<msg timestamp="20200515 13:55:12.333" level="INFO">Clicking element '//button[contains(text(),'Confirm')]'.</msg>
+<status status="PASS" starttime="20200515 13:55:12.332" endtime="20200515 13:55:12.393"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>5s</arg>
 </arguments>
-<msg timestamp="20200515 11:00:13.097" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20200515 11:00:08.090" endtime="20200515 11:00:13.097"></status>
+<msg timestamp="20200515 13:55:17.395" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200515 13:55:12.393" endtime="20200515 13:55:17.395"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:59:49.294" endtime="20200515 11:00:13.097"></status>
+<status status="PASS" starttime="20200515 13:54:53.569" endtime="20200515 13:55:17.396"></status>
 </kw>
 <kw name="TC_27_Logout from greytHR and Close Browser" library="Logout">
 <kw name="Sleep" library="BuiltIn">
@@ -3186,34 +3186,34 @@ Without any arguments.</msg>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<msg timestamp="20200515 11:00:15.113" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20200515 11:00:13.097" endtime="20200515 11:00:15.113"></status>
+<msg timestamp="20200515 13:55:19.402" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 13:55:17.399" endtime="20200515 13:55:19.402"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click the element identified by ``locator``.</doc>
 <arguments>
 <arg>//a[contains(text(),'Sign Out')]</arg>
 </arguments>
-<msg timestamp="20200515 11:00:15.113" level="INFO">Clicking element '//a[contains(text(),'Sign Out')]'.</msg>
-<status status="PASS" starttime="20200515 11:00:15.113" endtime="20200515 11:00:15.205"></status>
+<msg timestamp="20200515 13:55:19.405" level="INFO">Clicking element '//a[contains(text(),'Sign Out')]'.</msg>
+<status status="PASS" starttime="20200515 13:55:19.403" endtime="20200515 13:55:19.510"></status>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20200515 11:00:15.205" endtime="20200515 11:00:17.488"></status>
+<status status="PASS" starttime="20200515 13:55:19.510" endtime="20200515 13:55:21.790"></status>
 </kw>
-<status status="PASS" starttime="20200515 11:00:13.097" endtime="20200515 11:00:17.488"></status>
+<status status="PASS" starttime="20200515 13:55:17.397" endtime="20200515 13:55:21.791"></status>
 </kw>
-<status status="PASS" starttime="20200515 10:59:49.293" endtime="20200515 11:00:17.488" critical="yes"></status>
+<status status="PASS" starttime="20200515 13:54:53.567" endtime="20200515 13:55:21.792" critical="yes"></status>
 </test>
-<status status="PASS" starttime="20200515 10:56:11.457" endtime="20200515 11:00:17.495"></status>
+<status status="PASS" starttime="20200515 13:51:11.033" endtime="20200515 13:55:21.797"></status>
 </suite>
-<status status="PASS" starttime="20200515 10:56:11.457" endtime="20200515 11:00:17.511"></status>
+<status status="PASS" starttime="20200515 13:51:11.028" endtime="20200515 13:55:21.818"></status>
 </suite>
-<status status="PASS" starttime="20200515 10:56:11.457" endtime="20200515 11:00:17.511"></status>
+<status status="PASS" starttime="20200515 13:51:11.023" endtime="20200515 13:55:21.833"></status>
 </suite>
-<status status="PASS" starttime="20200515 10:56:11.441" endtime="20200515 11:00:17.519"></status>
+<status status="PASS" starttime="20200515 13:51:11.013" endtime="20200515 13:55:21.837"></status>
 </suite>
-<status status="PASS" starttime="20200515 10:56:11.410" endtime="20200515 11:00:17.519"></status>
+<status status="PASS" starttime="20200515 13:51:10.963" endtime="20200515 13:55:21.842"></status>
 </suite>
 <statistics>
 <total>
