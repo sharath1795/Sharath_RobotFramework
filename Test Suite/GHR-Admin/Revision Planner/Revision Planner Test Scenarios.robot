@@ -22,7 +22,7 @@ Salary Increment
        
      TC_05_Enter the Goal % and verify the Current Salary, Revised Salary and Total Employee Count 
      
-     TC_06_Verify the Band Frequency and change the Band Value
+     TC_06_Verify the Band Frequency and change the Band Value & Edit %
      
      TC_07_Verify the Goal Summary, Actual Amount and Variations 
     

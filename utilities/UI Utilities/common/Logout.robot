@@ -1,5 +1,5 @@
 *** Settings ***
-Library     SeleniumLibrary 
+Library     SeleniumLibrary
 
 *** Keywords ***
 TC_26_Delete all the Analysis
@@ -17,4 +17,4 @@ TC_26_Delete all the Analysis
 TC_27_Logout from greytHR and Close Browser
     Sleep                            2s
     Click Element                    //a[contains(text(),'Sign Out')]
-    Close Browser
+    Close Browser  

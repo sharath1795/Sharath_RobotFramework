@@ -36,10 +36,18 @@ TC_05_Enter the Goal % and verify the Current Salary, Revised Salary and Total E
     Log To Console                   ${G} is ${GA}  
     Click Element                    //button[contains(text(),'Next')]    
     
-TC_06_Verify the Band Frequency and change the Band Value
-   Sleep                             2s
-   Input Text                        //input[@placeholder='Frequency']    60000    
-   
+TC_06_Verify the Band Frequency and change the Band Value & Edit %
+    Sleep                             2s
+    Input Text                        //input[@placeholder='Frequency']    60000 
+    Sleep                             2s    
+    Double Click Element              css=div[class="ngCanvas"]>div:nth-child(3)>div>div>div>div
+    Press Keys                        css=div[class="ngCanvas"]>div:nth-child(3)>div>div>div>div                 \ue005
+    Press Keys                        css=div[class="ngCanvas"]>div:nth-child(3)>div>div>div>div                 \ue01f
+    Sleep                             2s
+    Double Click Element              css=div[class="ngCanvas"]>div:nth-child(4)>div>div>div>div
+    Press Keys                        css=div[class="ngCanvas"]>div:nth-child(4)>div>div>div>div                 \ue005
+    Press Keys                        css=div[class="ngCanvas"]>div:nth-child(4)>div>div>div>div                 \ue01f
+           
 TC_07_Verify the Goal Summary, Actual Amount and Variations    
     Sleep                            2s
     Scroll Page To Location          0    2000
@@ -125,4 +133,4 @@ TC_09_Edit the Analysis and change the CTC Salary Item, Goal% and Download the e
     Click Element                    //button[@class='btn summary-btn-close ng-scope']
     Sleep                            2s 
     Click Element                    //span[1]//div[1]//table[1]//tbody[1]//tr[1]//td[1]//div[1]//span[2]//i[2]
-    Sleep                            2s    
+    Sleep                            2s  
