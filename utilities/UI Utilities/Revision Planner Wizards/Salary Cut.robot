@@ -40,9 +40,9 @@ TC_22_Verify the Band Frequency and change the Band Value & Edit %
     Sleep                             2s
     Input Text                        //input[@placeholder='Frequency']    40000 
     Sleep                             2s    
-    Double Click Element              css=div[class="ngCanvas"]>div:nth-child(3)>div>div>div>div
-    Press Keys                        css=div[class="ngCanvas"]>div:nth-child(3)>div>div>div>div                 \ue005
-    Press Keys                        css=div[class="ngCanvas"]>div:nth-child(3)>div>div>div>div                 \ue01c\ue01b
+    Double Click Element              css=div[class="ngCanvas"]>div:nth-child(5)>div>div>div>div
+    Press Keys                        css=div[class="ngCanvas"]>div:nth-child(5)>div>div>div>div                 \ue005
+    Press Keys                        css=div[class="ngCanvas"]>div:nth-child(5)>div>div>div>div                 \ue01c\ue01b
     Sleep                             2s
     Double Click Element              css=div[class="ngCanvas"]>div:nth-child(4)>div>div>div>div
     Press Keys                        css=div[class="ngCanvas"]>div:nth-child(4)>div>div>div>div                 \ue005
