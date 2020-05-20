@@ -40,7 +40,7 @@ Salary Deferment
        
      TC_13_Enter the Goal % and verify the Current Salary, Revised Salary and Total Employee Count
     
-     TC_14_Verify the Band Frequency and change the Band Value 
+     TC_14_Verify the Band Frequency and change the Band Value & Edit %
      
      TC_15_Verify the Goal Summary, Actual Amount and Variations 
     
@@ -58,7 +58,7 @@ Salary Cut
        
      TC_21_Enter the Goal % and verify the Current Salary, Revised Salary and Total Employee Count 
      
-     TC_22_Verify the Band Frequency and change the Band Value
+     TC_22_Verify the Band Frequency and change the Band Value & Edit %
      
      TC_23_Verify the Goal Summary, Actual Amount and Variations
     
