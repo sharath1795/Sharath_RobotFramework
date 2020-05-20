@@ -42,11 +42,11 @@ TC_06_Verify the Band Frequency and change the Band Value & Edit %
     Sleep                             2s    
     Double Click Element              css=div[class="ngCanvas"]>div:nth-child(3)>div>div>div>div
     Press Keys                        css=div[class="ngCanvas"]>div:nth-child(3)>div>div>div>div                 \ue005
-    Press Keys                        css=div[class="ngCanvas"]>div:nth-child(3)>div>div>div>div                 \ue01f\ue01b
+    Press Keys                        css=div[class="ngCanvas"]>div:nth-child(3)>div>div>div>div                 \ue01c\ue01b
     Sleep                             2s
     Double Click Element              css=div[class="ngCanvas"]>div:nth-child(4)>div>div>div>div
     Press Keys                        css=div[class="ngCanvas"]>div:nth-child(4)>div>div>div>div                 \ue005
-    Press Keys                        css=div[class="ngCanvas"]>div:nth-child(4)>div>div>div>div                 \ue01f
+    Press Keys                        css=div[class="ngCanvas"]>div:nth-child(4)>div>div>div>div                 \ue01c\ue01b
            
 TC_07_Verify the Goal Summary, Actual Amount and Variations    
     Sleep                            2s
